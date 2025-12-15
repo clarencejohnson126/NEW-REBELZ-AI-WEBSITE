@@ -96,6 +96,7 @@ export default function Hero() {
     {
       headline: t('hero.slides.2.headline'),
       subtext: t('hero.slides.2.subtext'),
+      image: 'https://eoahpwciwttfavzpqfnz.supabase.co/storage/v1/object/sign/unrelated/0fe683e3-7fe8-4553-9b82-0479a558c375.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85YmJlMzI3NC0xODJjLTRmZGUtODk2NC1hMTcxNzVmY2I1NGIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1bnJlbGF0ZWQvMGZlNjgzZTMtN2ZlOC00NTUzLTliODItMDQ3OWE1NThjMzc1LnBuZyIsImlhdCI6MTc2NTc5Mjk5NywiZXhwIjoxOTU1MDA4OTk3fQ.YItbjBmT8i-wZtmFernzXN1JgHNGKNqYJeDjHaryuAE',
     },
   ], [t])
 
@@ -151,14 +152,42 @@ export default function Hero() {
     }, 600)
   }
 
+  const currentImage = slides[currentSlide]?.image
+
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
-      {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-b from-background via-background to-surface/50" />
+      {/* Background image for slides that have one */}
+      {slides.map((slide, index) => (
+        slide.image && (
+          <div
+            key={`bg-${index}`}
+            className={`absolute inset-0 transition-opacity duration-1000 ${
+              currentSlide === index && !isFadingOut ? 'opacity-100' : 'opacity-0'
+            }`}
+          >
+            <img
+              src={slide.image}
+              alt=""
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+            {/* Dark overlay for text readability */}
+            <div className="absolute inset-0 bg-black/60" />
+          </div>
+        )
+      ))}
+
+      {/* Background gradient (shows when no image) */}
+      <div
+        className={`absolute inset-0 bg-gradient-to-b from-background via-background to-surface/50 transition-opacity duration-1000 ${
+          currentImage && !isFadingOut ? 'opacity-0' : 'opacity-100'
+        }`}
+      />
 
       {/* Subtle grid pattern */}
       <div
-        className="absolute inset-0 opacity-[0.02]"
+        className={`absolute inset-0 opacity-[0.02] transition-opacity duration-1000 ${
+          currentImage && !isFadingOut ? 'opacity-0' : 'opacity-[0.02]'
+        }`}
         style={{
           backgroundImage: `linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px),
                            linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)`,
