@@ -1,0 +1,256 @@
+{
+  "nav": {
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "bookCall": "Book a call"
+  },
+  "philosophy": {
+    "title": "The Philosophy",
+    "headline": "Technology should be silent leverage.",
+    "description": "Most small businesses are drowning in \"admin work\" that prevents them from doing \"real work.\" We don't implement AI to replace people; we implement it to replace drudgery.",
+    "principles": [
+      "No 'Black Box' solutions. You own the systems.",
+      "Focus on ROI and operational speed.",
+      "Seamless integration with legacy software.",
+      "Ongoing support and optimization."
+    ]
+  },
+  "hero": {
+    "slides": [
+      {
+        "headline": "AI that works quietly in the background.",
+        "subtext": "I help small businesses automate operations without disrupting daily work."
+      },
+      {
+        "headline": "Built for operators, not tech teams.",
+        "subtext": "You focus on your business. I design, implement, and maintain the AI systems."
+      },
+      {
+        "headline": "One partner. Real systems. Measurable impact.",
+        "subtext": "Personal, hands-on AI implementation for small and growing companies."
+      }
+    ],
+    "cta": "Start a conversation",
+    "scroll": "Scroll"
+  },
+  "services": {
+    "sectionTitle": "Capabilities & Infrastructure",
+    "label": "What I Do",
+    "title": "Systems that give you time back",
+    "description": "Every service exists to solve one problem: freeing you from repetitive work so you can focus on what actually grows your business.",
+    "explore": "Explore",
+    "notSure": "Not sure where to start?",
+    "discoverRandom": "Click to discover a random service",
+    "items": {
+      "whatsapp": {
+        "title": "WhatsApp Automations",
+        "summary": "Customer communication that runs itself. Booking, reminders, follow-ups—without the overhead.",
+        "description": "Your customers already use WhatsApp. Meet them there—without adding to your workload.",
+        "whoFor": "Service businesses, clinics, salons, consultants—anyone who spends hours answering the same questions.",
+        "problem": "You lose time to repetitive messages. Booking confirmations, reminders, follow-ups. It adds up fast.",
+        "solution": "Automated conversations that handle the routine. Customers get instant responses. You get your mornings back.",
+        "whyCare": "Zero app install for your clients. No learning curve. Just faster communication with less manual effort.",
+        "features": ["Automated booking confirmations", "Appointment reminders", "Follow-up sequences", "Internal team notifications", "FAQ handling"]
+      },
+      "voice": {
+        "title": "Voice Agents",
+        "summary": "Phone-based AI that handles appointments and first-line support. Always available.",
+        "description": "A phone line that never sleeps. Handles calls when you cannot.",
+        "whoFor": "Small offices, medical practices, service providers who miss calls during busy hours.",
+        "problem": "Every missed call is a missed opportunity. But you cannot answer phones and do your actual work.",
+        "solution": "AI voice agents that answer, qualify, and schedule—24/7. Callers get help. You get qualified leads.",
+        "whyCare": "First-line customer support without hiring. Appointments booked while you focus on the work that pays.",
+        "features": ["Appointment scheduling", "Call qualification", "After-hours coverage", "FAQ responses", "Call summaries delivered to you"]
+      },
+      "ai-systems": {
+        "title": "AI Agent Systems & Infrastructure",
+        "summary": "Internal AI agents that automate processes and handle knowledge work for small teams.",
+        "description": "Internal AI that handles the work between the work.",
+        "whoFor": "Small teams drowning in admin. Businesses with processes that should not require constant attention.",
+        "problem": "Manual data entry. Copy-pasting between tools. Status updates. The invisible work that eats your day.",
+        "solution": "Custom AI agents that move information, update systems, and handle routine decisions automatically.",
+        "whyCare": "Lightweight systems tailored to small teams. Not enterprise software. Just the automation you actually need.",
+        "features": ["Process automation", "Data synchronization", "Document handling", "Internal notifications", "Knowledge management"]
+      },
+      "mobile": {
+        "title": "Mobile App Development",
+        "summary": "Custom apps for internal tools or client-facing utilities. Built only when it makes sense.",
+        "description": "Custom apps when—and only when—they make sense.",
+        "whoFor": "Businesses with specific needs that off-the-shelf software cannot solve.",
+        "problem": "Generic apps do not fit your workflow. But custom development feels expensive and risky.",
+        "solution": "Focused mobile apps built for your specific use case. Internal tools or client-facing utilities.",
+        "whyCare": "I only recommend this when it is the right solution. Most problems do not need an app.",
+        "features": ["Internal team tools", "Client-facing utilities", "Field service apps", "Custom booking systems", "Integrated with your existing stack"]
+      },
+      "web": {
+        "title": "Website Design & Implementation",
+        "summary": "Clean, conversion-focused websites. Integrated with automations. No bloat.",
+        "description": "Websites that work. Not marketing pages that look pretty and convert nothing.",
+        "whoFor": "Businesses that need a web presence that actually generates leads or serves customers.",
+        "problem": "Your website looks dated. Or it looks fine but does nothing. Visitors leave without taking action.",
+        "solution": "Clean, conversion-focused websites integrated with your automations. Form fills become booked calls.",
+        "whyCare": "No bloated marketing pages. No unnecessary features. Just a site that does its job.",
+        "features": ["Conversion-focused design", "Mobile-first approach", "Integrated with automations", "Fast loading times", "Easy for you to update"]
+      },
+      "tools": {
+        "title": "Smart AI Tools Implementation",
+        "summary": "Selecting the right tools, connecting them, training your team. Avoiding tool overload.",
+        "description": "The right tools, connected properly, with your team trained to use them.",
+        "whoFor": "Businesses overwhelmed by AI tool options. Teams that tried tools but could not make them stick.",
+        "problem": "Tool overload. You signed up for five AI tools and use none of them effectively.",
+        "solution": "I select what you actually need, connect it to your workflow, and train your team until it becomes habit.",
+        "whyCare": "Avoid the graveyard of unused subscriptions. Get tools that actually get used.",
+        "features": ["Tool selection and vetting", "Integration setup", "Team training", "Workflow optimization", "Ongoing support"]
+      },
+      "partner": {
+        "title": "AI Transformation Partner",
+        "summary": "Long-term collaboration. Strategic guidance. Gradual adoption without forced disruption.",
+        "description": "Long-term collaboration for businesses ready to evolve—at their own pace.",
+        "whoFor": "Business owners who want AI adoption but need a guide, not a vendor.",
+        "problem": "You know AI matters. But you do not have time to research, experiment, and implement while running your business.",
+        "solution": "I become your AI partner. We identify opportunities together. I implement. You approve. We iterate.",
+        "whyCare": "No forced disruption. No massive upfront investment. Just gradual, strategic adoption that fits your reality.",
+        "features": ["Strategic planning", "Gradual implementation", "Regular check-ins", "Opportunity identification", "Long-term relationship"]
+      }
+    }
+  },
+  "serviceModal": {
+    "whoFor": "Who this is for",
+    "problem": "The problem",
+    "solution": "The solution",
+    "whyCare": "Why it matters",
+    "features": "What you get",
+    "cta": "Let's discuss your needs"
+  },
+  "clientele": {
+    "sectionTitle": "Who This Is For",
+    "label": "Who This Is For",
+    "title": "Small businesses. Owner-operated companies. Teams without a tech department.",
+    "quote": "They do not lack ambition. They lack time to experiment with new technology while running daily operations.",
+    "quoteFollowup": "That is why I exist. To be the person who handles the AI side—so you can focus on the business side.",
+    "whatAiMeans": "What AI means for you",
+    "types": [
+      {
+        "title": "You are running the business",
+        "preview": "Busy owners who need systems, not more tasks.",
+        "full": "You make decisions. You handle operations. You do not have time to research every new AI tool or manage a tech team. You need someone who can take ownership and deliver working systems."
+      },
+      {
+        "title": "You are tired of manual work",
+        "preview": "Repetitive tasks eating your hours.",
+        "full": "Answering the same questions. Sending the same reminders. Copying data between systems. You know there is a better way, but you have not had time to find it."
+      },
+      {
+        "title": "You want AI, but not chaos",
+        "preview": "Evolution, not revolution.",
+        "full": "You have heard the promises. You have seen the tools. But you do not want disruption. You want gradual adoption that fits your existing workflow, not a complete overhaul."
+      },
+      {
+        "title": "You value long-term relationships",
+        "preview": "A partner, not a vendor.",
+        "full": "You are not looking for a one-time project. You want a partner who understands your business and can help it evolve over time."
+      }
+    ],
+    "stats": [
+      { "value": "Support", "sub": "Not replacement" },
+      { "value": "Infrastructure", "sub": "Not complexity" },
+      { "value": "Leverage", "sub": "Not disruption" }
+    ]
+  },
+  "about": {
+    "sectionTitle": "About",
+    "label": "About",
+    "title": "This is not a large agency.",
+    "intro": "My name is Clarence.",
+    "introFollow": "I run Rebelz AI alone.",
+    "p1": "Clients work directly with me. That means faster decisions, clearer communication, and systems that actually fit your business—not a template sold to a hundred others.",
+    "p2": "I am the strategist. I am the implementer. I am the one who answers when something breaks.",
+    "p3": "This model is not for everyone. Large companies need large teams. But for small businesses and owner-operated companies, working with one person who understands your entire operation is often exactly what makes AI adoption actually work.",
+    "workingWith": "What working with me looks like",
+    "traits": [
+      { "title": "Direct access", "desc": "No account managers. No ticket systems." },
+      { "title": "Accountability", "desc": "One person responsible for results." },
+      { "title": "Long-term thinking", "desc": "Solutions built to last, not to upsell." },
+      { "title": "Honest advice", "desc": "I will tell you if AI is not the answer." }
+    ],
+    "hiddenFacts": [
+      "I answer my own emails.",
+      "No project managers between us.",
+      "I built this website myself.",
+      "Every solution is custom."
+    ],
+    "discover": "+ Discover"
+  },
+  "testimonials": {
+    "sectionTitle": "Results",
+    "label": "Results",
+    "title": "What clients actually say",
+    "description": "No hype. Just practical outcomes from real businesses.",
+    "clickToFlip": "(Click cards to reveal metrics)",
+    "flipHint": "Click to flip →",
+    "keyMetric": "Key Metric",
+    "flipBack": "Click to flip back",
+    "note": "Names abbreviated for privacy. Industries and outcomes are real.",
+    "items": [
+      {
+        "industry": "Construction",
+        "company": "Small construction company",
+        "quote": "We used to catch addendums too late—after work was already done wrong. Now the system flags changes the moment they come in. Document handling alone probably saves us two headaches a week.",
+        "focus": "Early detection of contract changes, better document handling, reduced surprises on site.",
+        "name": "M. Weber",
+        "role": "Owner",
+        "hidden": "Time saved: ~8 hours/week"
+      },
+      {
+        "industry": "Healthcare",
+        "company": "Doctor's office",
+        "quote": "No-shows were killing our schedule. Automated reminders cut them in half. The front desk actually has time to help patients now instead of making confirmation calls all day.",
+        "focus": "Automated appointment reminders, reduced no-shows, less administrative overhead.",
+        "name": "Dr. K. Hoffmann",
+        "role": "Practice Owner",
+        "hidden": "No-show rate: 50% reduction"
+      },
+      {
+        "industry": "Personal Services",
+        "company": "Hair studio",
+        "quote": "Our clients actually use the app. Booking, checking their history, even rebooking their favorite stylist. It feels like we are a bigger operation than we are.",
+        "focus": "Custom client app, improved booking flow, better client engagement.",
+        "name": "S. Martinez",
+        "role": "Studio Owner",
+        "hidden": "Rebooking rate: +35%"
+      }
+    ]
+  },
+  "contact": {
+    "sectionTitle": "Get In Touch",
+    "label": "Contact",
+    "title": "Start a conversation",
+    "description": "No sales pitch. No pressure. Just a straightforward conversation about whether AI can actually help your business.",
+    "p1": "Tell me what is eating your time. I will tell you honestly if I can help—and if I cannot, I will point you in the right direction.",
+    "p2": "Most conversations take 20-30 minutes. By the end, you will know whether this is worth exploring further.",
+    "scheduleTitle": "Prefer to schedule directly?",
+    "scheduleDesc": "Pick a time that works for you. I will call or we can video chat—your choice.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "company": "Company",
+      "optional": "(optional)",
+      "message": "What is taking up too much of your time?",
+      "messagePlaceholder": "Tell me about the repetitive tasks, manual processes, or bottlenecks you're dealing with...",
+      "submit": "Send message",
+      "note": "I read every message. Usually respond within 24 hours."
+    }
+  },
+  "footer": {
+    "tagline": "AI implementation for small businesses. One person. Real systems. No unnecessary complexity.",
+    "navigation": "Navigation",
+    "getInTouch": "Get in touch",
+    "quote": "If you don't solve today's problems, you won't earn the blessings of tomorrow's problems.",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "secretMessage": "The best technology disappears into the background.",
+    "secretFollowup": "You found the hidden message. You pay attention to details. We should talk."
+  }
+}

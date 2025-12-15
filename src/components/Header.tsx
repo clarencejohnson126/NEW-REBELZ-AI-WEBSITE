@@ -1,0 +1,132 @@
+import { useState, useEffect } from 'react'
+import { Menu, X, Globe } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
+
+export default function Header() {
+  const { t, i18n } = useTranslation()
+  const [isScrolled, setIsScrolled] = useState(false)
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+
+  const currentLang = i18n.language.startsWith('de') ? 'de' : 'en'
+
+  const toggleLanguage = () => {
+    const newLang = currentLang === 'en' ? 'de' : 'en'
+    i18n.changeLanguage(newLang)
+  }
+
+  const navLinks = [
+    { href: '#leistungen', label: t('nav.services') },
+    { href: '#ueber-mich', label: t('nav.about') },
+    { href: '#kontakt', label: t('nav.contact') },
+  ]
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 50)
+    }
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
+  return (
+    <header
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        isScrolled
+          ? 'bg-background/90 backdrop-blur-md border-b border-border'
+          : 'bg-transparent'
+      }`}
+    >
+      <div className="container-main">
+        <nav className="flex items-center justify-between h-20">
+          {/* Logo */}
+          <a
+            href="#"
+            className="text-white font-semibold text-xl tracking-tight hover:opacity-80 transition-opacity"
+          >
+            Rebelz AI
+          </a>
+
+          {/* Desktop Navigation */}
+          <div className="hidden md:flex items-center gap-8">
+            {navLinks.map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                className="nav-link"
+              >
+                {link.label}
+              </a>
+            ))}
+
+            {/* Language Toggle */}
+            <button
+              onClick={toggleLanguage}
+              className="flex items-center gap-2 text-muted hover:text-white transition-colors px-3 py-2 rounded-md hover:bg-surface"
+              aria-label="Toggle language"
+            >
+              <Globe className="w-4 h-4" />
+              <span className="text-small font-medium uppercase">{currentLang}</span>
+            </button>
+
+            <a
+              href="https://calendly.com/clarencejohnson/rebelz-ai-schlachtplan-gesprach"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary text-small py-3 px-6"
+            >
+              {t('nav.bookCall')}
+            </a>
+          </div>
+
+          {/* Mobile Menu Button */}
+          <div className="md:hidden flex items-center gap-4">
+            {/* Mobile Language Toggle */}
+            <button
+              onClick={toggleLanguage}
+              className="flex items-center gap-1 text-muted hover:text-white transition-colors p-2"
+              aria-label="Toggle language"
+            >
+              <Globe className="w-4 h-4" />
+              <span className="text-small font-medium uppercase">{currentLang}</span>
+            </button>
+
+            <button
+              className="text-foreground p-2"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              aria-label="Toggle menu"
+            >
+              {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          </div>
+        </nav>
+      </div>
+
+      {/* Mobile Menu */}
+      {isMobileMenuOpen && (
+        <div className="md:hidden bg-background border-t border-border">
+          <div className="container-main py-6 flex flex-col gap-4">
+            {navLinks.map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                className="nav-link py-2"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                {link.label}
+              </a>
+            ))}
+            <a
+              href="https://calendly.com/clarencejohnson/rebelz-ai-schlachtplan-gesprach"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary text-center mt-4"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              {t('nav.bookCall')}
+            </a>
+          </div>
+        </div>
+      )}
+    </header>
+  )
+}

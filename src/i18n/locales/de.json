@@ -1,0 +1,256 @@
+{
+  "nav": {
+    "services": "Leistungen",
+    "about": "Über mich",
+    "contact": "Kontakt",
+    "bookCall": "Termin buchen"
+  },
+  "philosophy": {
+    "title": "Die Philosophie",
+    "headline": "Technologie sollte stiller Hebel sein.",
+    "description": "Die meisten kleinen Unternehmen ertrinken in \"Verwaltungsarbeit\", die sie von der \"eigentlichen Arbeit\" abhält. Wir implementieren KI nicht, um Menschen zu ersetzen; wir implementieren sie, um Plackerei zu ersetzen.",
+    "principles": [
+      "Keine 'Black Box' Lösungen. Ihr besitzt die Systeme.",
+      "Fokus auf ROI und operative Geschwindigkeit.",
+      "Nahtlose Integration mit bestehender Software.",
+      "Laufende Unterstützung und Optimierung."
+    ]
+  },
+  "hero": {
+    "slides": [
+      {
+        "headline": "KI, die leise im Hintergrund arbeitet.",
+        "subtext": "Ich helfe kleinen Unternehmen, Abläufe zu automatisieren – ohne den Alltag zu stören."
+      },
+      {
+        "headline": "Gebaut für Unternehmer, nicht für IT-Teams.",
+        "subtext": "Ihr konzentriert euch auf euer Geschäft. Ich entwerfe, implementiere und pflege die KI-Systeme."
+      },
+      {
+        "headline": "Ein Partner. Echte Systeme. Messbare Ergebnisse.",
+        "subtext": "Persönliche, praxisnahe KI-Implementierung für kleine und wachsende Unternehmen."
+      }
+    ],
+    "cta": "Gespräch starten",
+    "scroll": "Scrollen"
+  },
+  "services": {
+    "sectionTitle": "Fähigkeiten & Infrastruktur",
+    "label": "Leistungen",
+    "title": "Systeme, die euch Zeit zurückgeben",
+    "description": "Jede Leistung existiert, um ein Problem zu lösen: Euch von repetitiver Arbeit zu befreien, damit ihr euch auf das konzentrieren könnt, was euer Geschäft wirklich wachsen lässt.",
+    "explore": "Entdecken",
+    "notSure": "Nicht sicher, wo ihr anfangen sollt?",
+    "discoverRandom": "Klickt, um einen Service zufällig zu entdecken",
+    "items": {
+      "whatsapp": {
+        "title": "WhatsApp Automatisierung",
+        "summary": "Kundenkommunikation, die sich selbst verwaltet. Buchungen, Erinnerungen, Follow-ups – ohne Mehraufwand.",
+        "description": "Eure Kunden nutzen bereits WhatsApp. Erreicht sie dort – ohne eure Arbeitslast zu erhöhen.",
+        "whoFor": "Dienstleister, Praxen, Salons, Berater – alle, die Stunden damit verbringen, dieselben Fragen zu beantworten.",
+        "problem": "Ihr verliert Zeit durch repetitive Nachrichten. Buchungsbestätigungen, Erinnerungen, Follow-ups. Das summiert sich schnell.",
+        "solution": "Automatisierte Gespräche, die das Routine-Geschäft erledigen. Kunden bekommen sofortige Antworten. Ihr bekommt eure Morgen zurück.",
+        "whyCare": "Keine App-Installation für eure Kunden nötig. Keine Lernkurve. Einfach schnellere Kommunikation mit weniger manuellem Aufwand.",
+        "features": ["Automatische Buchungsbestätigungen", "Termin-Erinnerungen", "Follow-up-Sequenzen", "Interne Team-Benachrichtigungen", "FAQ-Bearbeitung"]
+      },
+      "voice": {
+        "title": "Sprach-Agenten",
+        "summary": "Telefonbasierte KI, die Termine und First-Line-Support übernimmt. Immer verfügbar.",
+        "description": "Eine Telefonleitung, die niemals schläft. Nimmt Anrufe entgegen, wenn ihr es nicht könnt.",
+        "whoFor": "Kleine Büros, Arztpraxen, Dienstleister, die während Stoßzeiten Anrufe verpassen.",
+        "problem": "Jeder verpasste Anruf ist eine verpasste Chance. Aber ihr könnt nicht telefonieren und gleichzeitig eure eigentliche Arbeit erledigen.",
+        "solution": "KI-Sprach-Agenten, die antworten, qualifizieren und Termine vereinbaren – 24/7. Anrufer bekommen Hilfe. Ihr bekommt qualifizierte Leads.",
+        "whyCare": "First-Line-Kundensupport ohne Einstellung. Termine werden gebucht, während ihr euch auf die Arbeit konzentriert, die zahlt.",
+        "features": ["Terminplanung", "Anrufer-Qualifizierung", "Erreichbarkeit außerhalb der Geschäftszeiten", "FAQ-Antworten", "Anrufzusammenfassungen werden euch zugestellt"]
+      },
+      "ai-systems": {
+        "title": "KI-Agenten-Systeme & Infrastruktur",
+        "summary": "Interne KI-Agenten, die Prozesse automatisieren und Wissensarbeit für kleine Teams übernehmen.",
+        "description": "Interne KI, die die Arbeit zwischen der Arbeit erledigt.",
+        "whoFor": "Kleine Teams, die in Admin ertrinken. Unternehmen mit Prozessen, die keine ständige Aufmerksamkeit erfordern sollten.",
+        "problem": "Manuelle Dateneingabe. Copy-Paste zwischen Tools. Status-Updates. Die unsichtbare Arbeit, die euren Tag auffrisst.",
+        "solution": "Maßgeschneiderte KI-Agenten, die Informationen bewegen, Systeme aktualisieren und Routine-Entscheidungen automatisch treffen.",
+        "whyCare": "Leichtgewichtige Systeme, maßgeschneidert für kleine Teams. Keine Enterprise-Software. Nur die Automatisierung, die ihr wirklich braucht.",
+        "features": ["Prozessautomatisierung", "Datensynchronisation", "Dokumentenverarbeitung", "Interne Benachrichtigungen", "Wissensmanagement"]
+      },
+      "mobile": {
+        "title": "Mobile App Entwicklung",
+        "summary": "Maßgeschneiderte Apps für interne Tools oder kundenorientierte Anwendungen. Nur wenn es sinnvoll ist.",
+        "description": "Maßgeschneiderte Apps – wenn und nur wenn sie sinnvoll sind.",
+        "whoFor": "Unternehmen mit spezifischen Anforderungen, die Standard-Software nicht lösen kann.",
+        "problem": "Generische Apps passen nicht zu eurem Workflow. Aber individuelle Entwicklung fühlt sich teuer und riskant an.",
+        "solution": "Fokussierte mobile Apps, gebaut für euren spezifischen Anwendungsfall. Interne Tools oder kundenorientierte Anwendungen.",
+        "whyCare": "Ich empfehle dies nur, wenn es die richtige Lösung ist. Die meisten Probleme brauchen keine App.",
+        "features": ["Interne Team-Tools", "Kundenorientierte Anwendungen", "Außendienst-Apps", "Individuelle Buchungssysteme", "Integration in eure bestehende Infrastruktur"]
+      },
+      "web": {
+        "title": "Webdesign & Implementierung",
+        "summary": "Klare, conversion-fokussierte Websites. Integriert mit Automatisierungen. Kein Ballast.",
+        "description": "Websites, die funktionieren. Nicht Marketing-Seiten, die hübsch aussehen und nichts konvertieren.",
+        "whoFor": "Unternehmen, die eine Web-Präsenz brauchen, die tatsächlich Leads generiert oder Kunden bedient.",
+        "problem": "Eure Website sieht veraltet aus. Oder sie sieht gut aus, tut aber nichts. Besucher gehen, ohne aktiv zu werden.",
+        "solution": "Klare, conversion-fokussierte Websites, integriert mit euren Automatisierungen. Formular-Eingaben werden zu gebuchten Terminen.",
+        "whyCare": "Keine aufgeblähten Marketing-Seiten. Keine unnötigen Features. Nur eine Website, die ihren Job macht.",
+        "features": ["Conversion-fokussiertes Design", "Mobile-First-Ansatz", "Integration mit Automatisierungen", "Schnelle Ladezeiten", "Einfach für euch zu aktualisieren"]
+      },
+      "tools": {
+        "title": "Smarte KI-Tools Implementierung",
+        "summary": "Die richtigen Tools auswählen, verbinden und euer Team schulen. Tool-Überladung vermeiden.",
+        "description": "Die richtigen Tools, richtig verbunden, mit eurem geschulten Team.",
+        "whoFor": "Unternehmen, die von KI-Tool-Optionen überwältigt sind. Teams, die Tools ausprobiert haben, aber sie nicht zum Laufen brachten.",
+        "problem": "Tool-Überladung. Ihr habt euch für fünf KI-Tools angemeldet und nutzt keines davon effektiv.",
+        "solution": "Ich wähle aus, was ihr wirklich braucht, verbinde es mit eurem Workflow und schule euer Team, bis es zur Gewohnheit wird.",
+        "whyCare": "Vermeidet den Friedhof ungenutzter Abonnements. Bekommt Tools, die tatsächlich genutzt werden.",
+        "features": ["Tool-Auswahl und Prüfung", "Integrations-Setup", "Team-Schulung", "Workflow-Optimierung", "Laufende Unterstützung"]
+      },
+      "partner": {
+        "title": "KI-Transformations-Partner",
+        "summary": "Langfristige Zusammenarbeit. Strategische Beratung. Schrittweise Einführung ohne erzwungene Disruption.",
+        "description": "Langfristige Zusammenarbeit für Unternehmen, die bereit sind sich weiterzuentwickeln – in ihrem eigenen Tempo.",
+        "whoFor": "Geschäftsinhaber, die KI-Einführung wollen, aber einen Begleiter brauchen, keinen Verkäufer.",
+        "problem": "Ihr wisst, dass KI wichtig ist. Aber ihr habt keine Zeit zu recherchieren, zu experimentieren und zu implementieren, während ihr euer Unternehmen führt.",
+        "solution": "Ich werde euer KI-Partner. Wir identifizieren gemeinsam Chancen. Ich implementiere. Ihr genehmigt. Wir iterieren.",
+        "whyCare": "Keine erzwungene Disruption. Keine massive Vorabinvestition. Nur schrittweise, strategische Einführung, die zu eurer Realität passt.",
+        "features": ["Strategische Planung", "Schrittweise Implementierung", "Regelmäßige Check-ins", "Chancen-Identifikation", "Langfristige Beziehung"]
+      }
+    }
+  },
+  "serviceModal": {
+    "whoFor": "Für wen das ist",
+    "problem": "Das Problem",
+    "solution": "Die Lösung",
+    "whyCare": "Warum es wichtig ist",
+    "features": "Was ihr bekommt",
+    "cta": "Lasst uns über eure Anforderungen sprechen"
+  },
+  "clientele": {
+    "sectionTitle": "Für wen das ist",
+    "label": "Für wen das ist",
+    "title": "Kleine Unternehmen. Inhabergeführte Firmen. Teams ohne IT-Abteilung.",
+    "quote": "Es fehlt euch nicht an Ehrgeiz. Es fehlt euch die Zeit, mit neuer Technologie zu experimentieren, während ihr den täglichen Betrieb führt.",
+    "quoteFollowup": "Deshalb gibt es mich. Um die Person zu sein, die die KI-Seite übernimmt – damit ihr euch auf die Geschäftsseite konzentrieren könnt.",
+    "whatAiMeans": "Was KI für euch bedeutet",
+    "types": [
+      {
+        "title": "Ihr führt das Unternehmen",
+        "preview": "Beschäftigte Inhaber, die Systeme brauchen, keine zusätzlichen Aufgaben.",
+        "full": "Ihr trefft Entscheidungen. Ihr kümmert euch um den Betrieb. Ihr habt keine Zeit, jedes neue KI-Tool zu recherchieren oder ein Tech-Team zu leiten. Ihr braucht jemanden, der Verantwortung übernimmt und funktionierende Systeme liefert."
+      },
+      {
+        "title": "Ihr seid müde von manueller Arbeit",
+        "preview": "Repetitive Aufgaben, die eure Stunden auffressen.",
+        "full": "Dieselben Fragen beantworten. Dieselben Erinnerungen senden. Daten zwischen Systemen kopieren. Ihr wisst, es gibt einen besseren Weg, aber ihr hattet keine Zeit, ihn zu finden."
+      },
+      {
+        "title": "Ihr wollt KI, aber kein Chaos",
+        "preview": "Evolution, nicht Revolution.",
+        "full": "Ihr habt die Versprechen gehört. Ihr habt die Tools gesehen. Aber ihr wollt keine Disruption. Ihr wollt schrittweise Einführung, die zu eurem bestehenden Workflow passt, keine komplette Umstellung."
+      },
+      {
+        "title": "Ihr schätzt langfristige Beziehungen",
+        "preview": "Ein Partner, kein Verkäufer.",
+        "full": "Ihr sucht kein einmaliges Projekt. Ihr wollt einen Partner, der euer Unternehmen versteht und ihm helfen kann, sich im Laufe der Zeit weiterzuentwickeln."
+      }
+    ],
+    "stats": [
+      { "value": "Unterstützung", "sub": "Kein Ersatz" },
+      { "value": "Infrastruktur", "sub": "Keine Komplexität" },
+      { "value": "Hebelwirkung", "sub": "Keine Disruption" }
+    ]
+  },
+  "about": {
+    "sectionTitle": "Über mich",
+    "label": "Über mich",
+    "title": "Das ist keine große Agentur.",
+    "intro": "Mein Name ist Clarence.",
+    "introFollow": "Ich führe Rebelz AI allein.",
+    "p1": "Kunden arbeiten direkt mit mir. Das bedeutet schnellere Entscheidungen, klarere Kommunikation und Systeme, die tatsächlich zu eurem Unternehmen passen – keine Vorlage, die an hundert andere verkauft wurde.",
+    "p2": "Ich bin der Stratege. Ich bin der Umsetzer. Ich bin derjenige, der antwortet, wenn etwas nicht funktioniert.",
+    "p3": "Dieses Modell ist nicht für jeden. Große Unternehmen brauchen große Teams. Aber für kleine Unternehmen und inhabergeführte Firmen ist die Zusammenarbeit mit einer Person, die euren gesamten Betrieb versteht, oft genau das, was KI-Einführung tatsächlich zum Funktionieren bringt.",
+    "workingWith": "Wie die Zusammenarbeit mit mir aussieht",
+    "traits": [
+      { "title": "Direkter Zugang", "desc": "Keine Account Manager. Keine Ticket-Systeme." },
+      { "title": "Verantwortlichkeit", "desc": "Eine Person verantwortlich für Ergebnisse." },
+      { "title": "Langfristiges Denken", "desc": "Lösungen, die halten, nicht um Upselling zu betreiben." },
+      { "title": "Ehrliche Beratung", "desc": "Ich sage euch, wenn KI nicht die Antwort ist." }
+    ],
+    "hiddenFacts": [
+      "Ich beantworte meine E-Mails selbst.",
+      "Keine Projektmanager zwischen uns.",
+      "Ich habe diese Website selbst gebaut.",
+      "Jede Lösung ist maßgeschneidert."
+    ],
+    "discover": "+ Entdecken"
+  },
+  "testimonials": {
+    "sectionTitle": "Ergebnisse",
+    "label": "Ergebnisse",
+    "title": "Was Kunden wirklich sagen",
+    "description": "Kein Hype. Nur praktische Ergebnisse von echten Unternehmen.",
+    "clickToFlip": "(Klickt auf Karten, um Metriken zu sehen)",
+    "flipHint": "Klicken zum Umdrehen →",
+    "keyMetric": "Wichtige Kennzahl",
+    "flipBack": "Klicken zum Zurückdrehen",
+    "note": "Namen aus Datenschutzgründen abgekürzt. Branchen und Ergebnisse sind echt.",
+    "items": [
+      {
+        "industry": "Bauwesen",
+        "company": "Kleines Bauunternehmen",
+        "quote": "Früher haben wir Nachträge zu spät bemerkt – nachdem die Arbeit bereits falsch ausgeführt war. Jetzt markiert das System Änderungen, sobald sie eintreffen. Allein die Dokumentenverarbeitung spart uns wahrscheinlich zwei Kopfschmerzen pro Woche.",
+        "focus": "Früherkennung von Vertragsänderungen, bessere Dokumentenverarbeitung, weniger Überraschungen auf der Baustelle.",
+        "name": "M. Weber",
+        "role": "Inhaber",
+        "hidden": "Zeitersparnis: ~8 Std./Woche"
+      },
+      {
+        "industry": "Gesundheitswesen",
+        "company": "Arztpraxis",
+        "quote": "No-Shows haben unseren Zeitplan ruiniert. Automatisierte Erinnerungen haben sie halbiert. Die Rezeption hat jetzt tatsächlich Zeit, Patienten zu helfen, anstatt den ganzen Tag Bestätigungsanrufe zu machen.",
+        "focus": "Automatisierte Terminerinnerungen, reduzierte No-Shows, weniger Verwaltungsaufwand.",
+        "name": "Dr. K. Hoffmann",
+        "role": "Praxisinhaber",
+        "hidden": "No-Show-Rate: 50% Reduktion"
+      },
+      {
+        "industry": "Persönliche Dienstleistungen",
+        "company": "Friseursalon",
+        "quote": "Unsere Kunden nutzen die App tatsächlich. Buchungen, ihre Historie einsehen, sogar ihren Lieblingsstylisten erneut buchen. Es fühlt sich an, als wären wir ein größerer Betrieb, als wir es sind.",
+        "focus": "Individuelle Kunden-App, verbesserter Buchungsablauf, bessere Kundenbindung.",
+        "name": "S. Martinez",
+        "role": "Saloninhaberin",
+        "hidden": "Wiederbuchungsrate: +35%"
+      }
+    ]
+  },
+  "contact": {
+    "sectionTitle": "Kontakt aufnehmen",
+    "label": "Kontakt",
+    "title": "Startet ein Gespräch",
+    "description": "Kein Verkaufsgespräch. Kein Druck. Nur ein ehrliches Gespräch darüber, ob KI eurem Unternehmen tatsächlich helfen kann.",
+    "p1": "Erzählt mir, was eure Zeit auffrisst. Ich sage euch ehrlich, ob ich helfen kann – und wenn nicht, zeige ich euch die richtige Richtung.",
+    "p2": "Die meisten Gespräche dauern 20-30 Minuten. Am Ende wisst ihr, ob es sich lohnt, dies weiter zu erkunden.",
+    "scheduleTitle": "Lieber direkt einen Termin vereinbaren?",
+    "scheduleDesc": "Wählt eine Zeit, die für euch passt. Ich rufe an oder wir machen einen Videochat – eure Wahl.",
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "company": "Unternehmen",
+      "optional": "(optional)",
+      "message": "Was nimmt zu viel eurer Zeit in Anspruch?",
+      "messagePlaceholder": "Erzählt mir von den repetitiven Aufgaben, manuellen Prozessen oder Engpässen, mit denen ihr zu kämpfen habt...",
+      "submit": "Nachricht senden",
+      "note": "Ich lese jede Nachricht. Antworte normalerweise innerhalb von 24 Stunden."
+    }
+  },
+  "footer": {
+    "tagline": "KI-Implementierung für kleine Unternehmen. Eine Person. Echte Systeme. Keine unnötige Komplexität.",
+    "navigation": "Navigation",
+    "getInTouch": "Kontakt aufnehmen",
+    "quote": "Wenn du die Probleme von heute nicht löst, verdienst du nicht die Segnungen der Probleme von morgen.",
+    "rights": "Alle Rechte vorbehalten.",
+    "privacy": "Datenschutz",
+    "terms": "AGB",
+    "secretMessage": "Die beste Technologie verschwindet im Hintergrund.",
+    "secretFollowup": "Ihr habt die versteckte Nachricht gefunden. Ihr achtet auf Details. Wir sollten reden."
+  }
+}
