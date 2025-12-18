@@ -88,10 +88,12 @@ export default function Hero() {
     {
       headline: t('hero.slides.0.headline'),
       subtext: t('hero.slides.0.subtext'),
+      image: 'https://eoahpwciwttfavzpqfnz.supabase.co/storage/v1/object/sign/unrelated/bc940551-8de1-4e2f-8144-805e453b39e3.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85YmJlMzI3NC0xODJjLTRmZGUtODk2NC1hMTcxNzVmY2I1NGIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1bnJlbGF0ZWQvYmM5NDA1NTEtOGRlMS00ZTJmLTgxNDQtODA1ZTQ1M2IzOWUzLnBuZyIsImlhdCI6MTc2NjA4MjA4MywiZXhwIjoxOTU1Mjk4MDgzfQ.OSWxncfYvnS_xZfaoOmUYw92keXXkFVRbDp7sM09NBw',
     },
     {
       headline: t('hero.slides.1.headline'),
       subtext: t('hero.slides.1.subtext'),
+      image: 'https://eoahpwciwttfavzpqfnz.supabase.co/storage/v1/object/sign/unrelated/73c0496c-1f36-4fc2-a8c2-cce565fb2e03.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85YmJlMzI3NC0xODJjLTRmZGUtODk2NC1hMTcxNzVmY2I1NGIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1bnJlbGF0ZWQvNzNjMDQ5NmMtMWYzNi00ZmMyLWE4YzItY2NlNTY1ZmIyZTAzLnBuZyIsImlhdCI6MTc2NjA4MjMyNSwiZXhwIjoxOTU1Mjk4MzI1fQ.U4UN9HVb_SIpinFByn6OwRmjuPYxbmZ7aaPceJ5ED-c',
     },
     {
       headline: t('hero.slides.2.headline'),
