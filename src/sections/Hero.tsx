@@ -163,14 +163,14 @@ export default function Hero() {
         slide.image && (
           <div
             key={`bg-${index}`}
-            className={`absolute inset-0 transition-opacity duration-1000 ${
+            className={`absolute inset-0 transition-opacity duration-1000 bg-black ${
               currentSlide === index && !isFadingOut ? 'opacity-100' : 'opacity-0'
             }`}
           >
             <img
               src={slide.image}
               alt=""
-              className="absolute inset-0 w-full h-full object-cover"
+              className="absolute inset-0 w-full h-full object-cover md:object-cover object-contain"
             />
             {/* Dark overlay for text readability */}
             <div className="absolute inset-0 bg-black/60" />
@@ -198,7 +198,7 @@ export default function Hero() {
       />
 
       {/* Slide indicators */}
-      <div className="absolute bottom-12 left-1/2 -translate-x-1/2 flex gap-3 z-20">
+      <div className="absolute bottom-6 md:bottom-12 left-1/2 -translate-x-1/2 flex gap-3 z-20">
         {slides.map((_, index) => (
           <button
             key={index}
@@ -212,11 +212,11 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="container-main relative z-10 text-center max-w-5xl px-4">
+      <div className="container-main relative z-10 text-center max-w-5xl px-4 py-8 md:py-0">
         {/* Headline with letter animation */}
         <h1
           key={`headline-${key}`}
-          className={`text-h1 md:text-display text-white mb-10 font-bold leading-tight transition-opacity duration-700 ${
+          className={`text-2xl sm:text-3xl md:text-display text-white mb-6 md:mb-10 font-bold leading-tight transition-opacity duration-700 ${
             isFadingOut ? 'opacity-0' : 'opacity-100'
           }`}
         >
@@ -232,7 +232,7 @@ export default function Hero() {
         {/* Subtext - italic serif font with letter animation */}
         <div
           key={`subtext-${key}`}
-          className={`font-serif italic text-body md:text-h4 text-muted max-w-2xl mx-auto mb-12 transition-opacity duration-700 ${
+          className={`font-serif italic text-sm sm:text-base md:text-h4 text-muted max-w-2xl mx-auto mb-8 md:mb-12 transition-opacity duration-700 ${
             isFadingOut ? 'opacity-0' : 'opacity-100'
           }`}
         >
@@ -272,7 +272,7 @@ export default function Hero() {
 
       {/* Scroll indicator */}
       <div
-        className={`absolute bottom-28 left-1/2 -translate-x-1/2 transition-opacity duration-1000 ${
+        className={`absolute bottom-24 md:bottom-28 left-1/2 -translate-x-1/2 transition-opacity duration-1000 hidden md:flex ${
           isAnimating && !isFadingOut ? 'opacity-100' : 'opacity-0'
         }`}
         style={{ transitionDelay: '3000ms' }}
