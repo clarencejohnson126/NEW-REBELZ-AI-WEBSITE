@@ -234,7 +234,7 @@ export default function Hero() {
         {/* Headline with letter animation */}
         <h1
           key={`headline-${key}`}
-          className={`text-2xl sm:text-3xl md:text-display text-white mb-6 md:mb-10 font-bold leading-tight transition-opacity duration-700 ${
+          className={`font-display text-2xl sm:text-3xl md:text-display text-white mb-6 md:mb-10 font-semibold leading-tight transition-opacity duration-700 ${
             isFadingOut ? 'opacity-0' : 'opacity-100'
           }`}
         >
