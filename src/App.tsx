@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import Header from './components/Header'
 import Hero from './sections/Hero'
 import Philosophy from './sections/Philosophy'
@@ -22,6 +23,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
+      <Analytics />
     </div>
   )
 }
