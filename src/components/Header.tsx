@@ -41,12 +41,12 @@ export default function Header() {
           {/* Logo */}
           <a
             href="#"
-            className="hover:opacity-80 transition-opacity"
+            className="flex items-center hover:opacity-80 transition-opacity flex-shrink-0"
           >
             <img
               src="https://eoahpwciwttfavzpqfnz.supabase.co/storage/v1/object/sign/logos/ChatGPT%20Image%20Dec%2028,%202025,%2009_21_53%20PM%20(1).png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85YmJlMzI3NC0xODJjLTRmZGUtODk2NC1hMTcxNzVmY2I1NGIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJsb2dvcy9DaGF0R1BUIEltYWdlIERlYyAyOCwgMjAyNSwgMDlfMjFfNTMgUE0gKDEpLnBuZyIsImlhdCI6MTc2Njk1NDEwNSwiZXhwIjoxOTU2MTcwMTA1fQ.RO5Pa5bUuTuwTO5jcyRI5rKiPJJ7AFxX9OUMV2htrT4"
               alt="Rebelz AI"
-              className="h-[106px] md:h-[122px] w-auto"
+              className="h-[106px] md:h-[122px] w-auto object-contain"
             />
           </a>
 
