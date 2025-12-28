@@ -37,7 +37,7 @@ export default function Header() {
       }`}
     >
       <div className="container-main">
-        <nav className="flex items-center justify-between h-20">
+        <nav className="flex items-center justify-between h-32 md:h-36">
           {/* Logo */}
           <a
             href="#"
