@@ -41,12 +41,12 @@ export default function Header() {
           {/* Logo - wrapper clips transparent padding from image */}
           <a
             href="#"
-            className="flex items-start hover:opacity-80 transition-opacity flex-shrink-0 h-10 overflow-hidden"
+            className="flex items-start hover:opacity-80 transition-opacity flex-shrink-0 h-10 md:h-11 overflow-hidden"
           >
             <img
               src="https://eoahpwciwttfavzpqfnz.supabase.co/storage/v1/object/sign/logos/ChatGPT%20Image%20Dec%2028,%202025,%2009_21_53%20PM%20(1).png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85YmJlMzI3NC0xODJjLTRmZGUtODk2NC1hMTcxNzVmY2I1NGIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJsb2dvcy9DaGF0R1BUIEltYWdlIERlYyAyOCwgMjAyNSwgMDlfMjFfNTMgUE0gKDEpLnBuZyIsImlhdCI6MTc2Njk1NDEwNSwiZXhwIjoxOTU2MTcwMTA1fQ.RO5Pa5bUuTuwTO5jcyRI5rKiPJJ7AFxX9OUMV2htrT4"
               alt="Rebelz AI"
-              className="h-[173px] w-auto max-w-none -mt-[54px] md:-mt-[60px]"
+              className="h-[173px] w-auto max-w-none -mt-[54px]"
             />
           </a>
 
