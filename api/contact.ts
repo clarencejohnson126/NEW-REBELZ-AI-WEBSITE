@@ -19,7 +19,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   try {
     const { data, error } = await resend.emails.send({
       from: 'Rebelz AI Website <onboarding@resend.dev>',
-      to: 'thinkbig@rebelz-ai.com',
+      to: 'style@barberbuddy.app',
       replyTo: email,
       subject: `Neue Kontaktanfrage von ${name}`,
       html: `
