@@ -1,4 +1,5 @@
 import { Analytics } from '@vercel/analytics/react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Hero from './sections/Hero'
 import Philosophy from './sections/Philosophy'
@@ -8,10 +9,12 @@ import About from './sections/About'
 import Testimonials from './sections/Testimonials'
 import Contact from './sections/Contact'
 import Footer from './components/Footer'
+import Privacy from './pages/Privacy'
+import Terms from './pages/Terms'
 
-function App() {
+function HomePage() {
   return (
-    <div className="min-h-screen bg-background">
+    <>
       <Header />
       <main>
         <Hero />
@@ -23,8 +26,22 @@ function App() {
         <Contact />
       </main>
       <Footer />
-      <Analytics />
-    </div>
+    </>
+  )
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <div className="min-h-screen bg-background">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/terms" element={<Terms />} />
+        </Routes>
+        <Analytics />
+      </div>
+    </BrowserRouter>
   )
 }
 

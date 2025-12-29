@@ -252,8 +252,87 @@
     "quote": "Wenn du die Probleme von heute nicht löst, verdienst du nicht die Segnungen der Probleme von morgen.",
     "rights": "Alle Rechte vorbehalten.",
     "privacy": "Datenschutz",
-    "terms": "AGB",
+    "terms": "Impressum",
     "secretMessage": "Die beste Technologie verschwindet im Hintergrund.",
     "secretFollowup": "Ihr habt die versteckte Nachricht gefunden. Ihr achtet auf Details. Wir sollten reden."
+  },
+  "legal": {
+    "backToHome": "Zurück zur Startseite"
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "lastUpdated": "Zuletzt aktualisiert",
+    "responsible": {
+      "title": "Verantwortlicher"
+    },
+    "overview": {
+      "title": "Überblick",
+      "content": "Der Schutz eurer persönlichen Daten ist mir wichtig. Diese Datenschutzerklärung informiert euch darüber, wie ich eure Daten erhebe, verwende und schütze, wenn ihr diese Website nutzt."
+    },
+    "dataCollection": {
+      "title": "Welche Daten werden erhoben?",
+      "intro": "Ich erhebe nur die Daten, die für die Bereitstellung meiner Dienste notwendig sind:",
+      "item1": "Kontaktdaten (Name, E-Mail, Unternehmen), wenn ihr das Kontaktformular nutzt",
+      "item2": "Technische Daten (IP-Adresse, Browsertyp) für die Sicherheit und Funktion der Website",
+      "item3": "Nutzungsdaten über Vercel Analytics (anonymisiert)"
+    },
+    "contactForm": {
+      "title": "Kontaktformular",
+      "content": "Wenn ihr das Kontaktformular nutzt, werden eure Angaben (Name, E-Mail, Unternehmen, Nachricht) per E-Mail an mich übermittelt. Ich nutze diese Daten ausschließlich zur Bearbeitung eurer Anfrage. Die Übermittlung erfolgt über Resend, einen E-Mail-Dienst mit Servern in der EU/USA."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "content": "Diese Website verwendet keine Tracking-Cookies. Es werden nur technisch notwendige Cookies verwendet, die für die Funktion der Website erforderlich sind."
+    },
+    "analytics": {
+      "title": "Webanalyse",
+      "content": "Ich nutze Vercel Analytics für anonymisierte Besucherstatistiken. Es werden keine persönlichen Daten erfasst und kein Tracking über verschiedene Websites hinweg durchgeführt. Die Daten werden nicht an Dritte weitergegeben."
+    },
+    "rights": {
+      "title": "Eure Rechte",
+      "intro": "Ihr habt folgende Rechte bezüglich eurer personenbezogenen Daten:",
+      "item1": "Recht auf Auskunft über die gespeicherten Daten",
+      "item2": "Recht auf Berichtigung unrichtiger Daten",
+      "item3": "Recht auf Löschung eurer Daten",
+      "item4": "Recht auf Einschränkung der Verarbeitung",
+      "item5": "Recht auf Datenübertragbarkeit"
+    },
+    "contact": {
+      "title": "Kontakt für Datenschutzanfragen",
+      "content": "Bei Fragen zum Datenschutz könnt ihr mich jederzeit kontaktieren:"
+    }
+  },
+  "terms": {
+    "title": "Impressum & AGB",
+    "lastUpdated": "Zuletzt aktualisiert",
+    "impressum": {
+      "title": "Impressum (Angaben gemäß § 5 TMG)",
+      "taxInfo": "Kleinunternehmer gemäß § 19 UStG (keine Umsatzsteuer-ID)",
+      "taxOffice": "Zuständiges Finanzamt: Finanzamt Mannheim-Neckarstadt"
+    },
+    "disclaimer": {
+      "title": "Haftungsausschluss",
+      "content": "Die Inhalte dieser Website werden mit größtmöglicher Sorgfalt erstellt. Ich übernehme jedoch keine Gewähr für die Richtigkeit, Vollständigkeit und Aktualität der bereitgestellten Inhalte."
+    },
+    "liability": {
+      "title": "Haftung für Inhalte",
+      "content": "Als Diensteanbieter bin ich für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Ich bin jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen."
+    },
+    "links": {
+      "title": "Haftung für Links",
+      "content": "Diese Website enthält Links zu externen Websites Dritter, auf deren Inhalte ich keinen Einfluss habe. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter verantwortlich."
+    },
+    "copyright": {
+      "title": "Urheberrecht",
+      "content": "Die durch mich erstellten Inhalte und Werke auf dieser Website unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung und Verbreitung außerhalb der Grenzen des Urheberrechtes bedürfen meiner schriftlichen Zustimmung."
+    },
+    "services": {
+      "title": "Leistungen",
+      "content": "Alle angebotenen Leistungen werden individuell vereinbart. Preise, Umfang und Konditionen werden vor Projektbeginn schriftlich festgehalten. Rebelz AI ist eine Marke von Johnson Services."
+    },
+    "jurisdiction": {
+      "title": "Gerichtsstand",
+      "content": "Gerichtsstand für alle Streitigkeiten ist Mannheim, Deutschland. Es gilt deutsches Recht."
+    }
   }
 }

@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
 export default function Footer() {
@@ -62,10 +63,10 @@ export default function Footer() {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="mailto:hello@rebelzai.com"
+                  href="mailto:thinkbig@rebelz-ai.com"
                   className="text-body-sm text-muted hover:text-white transition-colors group"
                 >
-                  <span className="group-hover:underline">hello@rebelzai.com</span>
+                  <span className="group-hover:underline">thinkbig@rebelz-ai.com</span>
                 </a>
               </li>
               <li>
@@ -95,12 +96,12 @@ export default function Footer() {
             © {currentYear} Rebelz AI. {t('footer.rights')}
           </p>
           <div className="flex items-center gap-6">
-            <a href="#" className="text-small text-muted hover:text-white transition-colors">
+            <Link to="/privacy" className="text-small text-muted hover:text-white transition-colors">
               {t('footer.privacy')}
-            </a>
-            <a href="#" className="text-small text-muted hover:text-white transition-colors">
+            </Link>
+            <Link to="/terms" className="text-small text-muted hover:text-white transition-colors">
               {t('footer.terms')}
-            </a>
+            </Link>
             {/* Secret easter egg */}
             <button
               onClick={handleSecretClick}

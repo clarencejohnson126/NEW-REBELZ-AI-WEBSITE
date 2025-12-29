@@ -255,5 +255,84 @@
     "terms": "Terms",
     "secretMessage": "The best technology disappears into the background.",
     "secretFollowup": "You found the hidden message. You pay attention to details. We should talk."
+  },
+  "legal": {
+    "backToHome": "Back to home"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated",
+    "responsible": {
+      "title": "Responsible Party"
+    },
+    "overview": {
+      "title": "Overview",
+      "content": "Protecting your personal data is important to me. This privacy policy informs you about how I collect, use, and protect your data when you use this website."
+    },
+    "dataCollection": {
+      "title": "What data is collected?",
+      "intro": "I only collect data that is necessary to provide my services:",
+      "item1": "Contact information (name, email, company) when you use the contact form",
+      "item2": "Technical data (IP address, browser type) for website security and functionality",
+      "item3": "Usage data via Vercel Analytics (anonymized)"
+    },
+    "contactForm": {
+      "title": "Contact Form",
+      "content": "When you use the contact form, your information (name, email, company, message) is transmitted to me via email. I use this data exclusively to process your inquiry. Transmission is handled through Resend, an email service with servers in the EU/USA."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "content": "This website does not use tracking cookies. Only technically necessary cookies are used that are required for the website to function."
+    },
+    "analytics": {
+      "title": "Web Analytics",
+      "content": "I use Vercel Analytics for anonymized visitor statistics. No personal data is collected and no cross-website tracking is performed. Data is not shared with third parties."
+    },
+    "rights": {
+      "title": "Your Rights",
+      "intro": "You have the following rights regarding your personal data:",
+      "item1": "Right to access your stored data",
+      "item2": "Right to rectification of incorrect data",
+      "item3": "Right to deletion of your data",
+      "item4": "Right to restriction of processing",
+      "item5": "Right to data portability"
+    },
+    "contact": {
+      "title": "Contact for Privacy Inquiries",
+      "content": "If you have questions about data protection, you can contact me at any time:"
+    }
+  },
+  "terms": {
+    "title": "Terms & Legal Notice",
+    "lastUpdated": "Last updated",
+    "impressum": {
+      "title": "Legal Notice (Impressum)",
+      "taxInfo": "Small business pursuant to § 19 UStG (no VAT ID)",
+      "taxOffice": "Tax office: Finanzamt Mannheim-Neckarstadt"
+    },
+    "disclaimer": {
+      "title": "Disclaimer",
+      "content": "The content of this website is created with the greatest possible care. However, I do not guarantee the accuracy, completeness, or timeliness of the content provided."
+    },
+    "liability": {
+      "title": "Liability for Content",
+      "content": "As a service provider, I am responsible for my own content on these pages in accordance with general laws. However, I am not obligated to monitor transmitted or stored third-party information."
+    },
+    "links": {
+      "title": "Liability for Links",
+      "content": "This website contains links to external third-party websites over whose content I have no influence. The respective provider is always responsible for the content of the linked pages."
+    },
+    "copyright": {
+      "title": "Copyright",
+      "content": "The content and works created by me on this website are subject to German copyright law. Reproduction, editing, and distribution beyond the limits of copyright require my written consent."
+    },
+    "services": {
+      "title": "Services",
+      "content": "All services offered are individually agreed upon. Prices, scope, and conditions are documented in writing before project start. Rebelz AI is a brand of Johnson Services."
+    },
+    "jurisdiction": {
+      "title": "Jurisdiction",
+      "content": "The place of jurisdiction for all disputes is Mannheim, Germany. German law applies."
+    }
   }
 }
