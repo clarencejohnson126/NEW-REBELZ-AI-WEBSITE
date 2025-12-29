@@ -1,7 +1,9 @@
 import { useState } from 'react'
-import { ArrowRight } from 'lucide-react'
+import { ArrowRight, Loader2, CheckCircle, AlertCircle } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import SectionHeader from '../components/SectionHeader'
+
+type FormStatus = 'idle' | 'loading' | 'success' | 'error'
 
 export default function Contact() {
   const { t } = useTranslation()
@@ -11,10 +13,33 @@ export default function Contact() {
     company: '',
     message: '',
   })
+  const [status, setStatus] = useState<FormStatus>('idle')
+  const [errorMessage, setErrorMessage] = useState('')
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    console.log('Form submitted:', formData)
+    setStatus('loading')
+    setErrorMessage('')
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      })
+
+      if (!response.ok) {
+        throw new Error('Failed to send message')
+      }
+
+      setStatus('success')
+      setFormData({ name: '', email: '', company: '', message: '' })
+    } catch {
+      setStatus('error')
+      setErrorMessage(t('contact.form.errorMessage'))
+    }
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -124,9 +149,34 @@ export default function Contact() {
                 />
               </div>
 
-              <button type="submit" className="btn-primary w-full">
-                {t('contact.form.submit')}
+              <button
+                type="submit"
+                className="btn-primary w-full flex items-center justify-center gap-2 disabled:opacity-50"
+                disabled={status === 'loading'}
+              >
+                {status === 'loading' ? (
+                  <>
+                    <Loader2 className="w-4 h-4 animate-spin" />
+                    {t('contact.form.sending')}
+                  </>
+                ) : (
+                  t('contact.form.submit')
+                )}
               </button>
+
+              {status === 'success' && (
+                <div className="flex items-center gap-2 text-green-400 justify-center">
+                  <CheckCircle className="w-5 h-5" />
+                  <p>{t('contact.form.successMessage')}</p>
+                </div>
+              )}
+
+              {status === 'error' && (
+                <div className="flex items-center gap-2 text-red-400 justify-center">
+                  <AlertCircle className="w-5 h-5" />
+                  <p>{errorMessage}</p>
+                </div>
+              )}
 
               <p className="text-small text-muted text-center">
                 {t('contact.form.note')}

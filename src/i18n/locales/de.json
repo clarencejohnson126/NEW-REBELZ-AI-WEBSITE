@@ -239,6 +239,9 @@
       "message": "Was nimmt zu viel eurer Zeit in Anspruch?",
       "messagePlaceholder": "Erzählt mir von den repetitiven Aufgaben, manuellen Prozessen oder Engpässen, mit denen ihr zu kämpfen habt...",
       "submit": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "successMessage": "Nachricht gesendet! Ich melde mich bald.",
+      "errorMessage": "Fehler beim Senden. Bitte versucht es erneut.",
       "note": "Ich lese jede Nachricht. Antworte normalerweise innerhalb von 24 Stunden."
     }
   },

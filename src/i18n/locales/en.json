@@ -239,6 +239,9 @@
       "message": "What is taking up too much of your time?",
       "messagePlaceholder": "Tell me about the repetitive tasks, manual processes, or bottlenecks you're dealing with...",
       "submit": "Send message",
+      "sending": "Sending...",
+      "successMessage": "Message sent! I'll be in touch soon.",
+      "errorMessage": "Failed to send. Please try again.",
       "note": "I read every message. Usually respond within 24 hours."
     }
   },
