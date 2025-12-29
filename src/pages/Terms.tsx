@@ -17,7 +17,7 @@ export default function Terms() {
         </Link>
 
         <h1 className="text-h1 text-white mb-8">{t('terms.title')}</h1>
-        <p className="text-muted mb-8">{t('terms.lastUpdated')}: 29.12.2024</p>
+        <p className="text-muted mb-8">{t('terms.lastUpdated')}: 29.12.2025</p>
 
         <div className="prose prose-invert max-w-none space-y-8">
           {/* Impressum Section */}
@@ -33,6 +33,7 @@ export default function Terms() {
             </p>
             <p className="text-body text-muted mt-4">
               {t('terms.impressum.taxInfo')}<br />
+              {t('terms.impressum.vatId')}<br />
               {t('terms.impressum.taxOffice')}
             </p>
           </section>

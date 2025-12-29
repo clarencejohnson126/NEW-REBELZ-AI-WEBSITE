@@ -17,7 +17,7 @@ export default function Privacy() {
         </Link>
 
         <h1 className="text-h1 text-white mb-8">{t('privacy.title')}</h1>
-        <p className="text-muted mb-8">{t('privacy.lastUpdated')}: 29.12.2024</p>
+        <p className="text-muted mb-8">{t('privacy.lastUpdated')}: 29.12.2025</p>
 
         <div className="prose prose-invert max-w-none space-y-8">
           <section>

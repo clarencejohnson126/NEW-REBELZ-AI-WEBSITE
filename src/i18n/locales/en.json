@@ -307,7 +307,8 @@
     "lastUpdated": "Last updated",
     "impressum": {
       "title": "Legal Notice (Impressum)",
-      "taxInfo": "Small business pursuant to § 19 UStG (no VAT ID)",
+      "taxInfo": "Small business pursuant to § 19 UStG",
+      "vatId": "VAT ID: DE452125652",
       "taxOffice": "Tax office: Finanzamt Mannheim-Neckarstadt"
     },
     "disclaimer": {

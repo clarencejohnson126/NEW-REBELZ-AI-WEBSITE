@@ -307,7 +307,8 @@
     "lastUpdated": "Zuletzt aktualisiert",
     "impressum": {
       "title": "Impressum (Angaben gemäß § 5 TMG)",
-      "taxInfo": "Kleinunternehmer gemäß § 19 UStG (keine Umsatzsteuer-ID)",
+      "taxInfo": "Kleinunternehmer gemäß § 19 UStG",
+      "vatId": "Umsatzsteuer-ID: DE452125652",
       "taxOffice": "Zuständiges Finanzamt: Finanzamt Mannheim-Neckarstadt"
     },
     "disclaimer": {
