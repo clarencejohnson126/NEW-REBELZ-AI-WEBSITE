@@ -93,10 +93,7 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-          <div className="flex items-center gap-4">
-            <p className="text-small text-muted">
-              © {currentYear} Rebelz AI. {t('footer.rights')}
-            </p>
+          <div className="flex flex-col items-start gap-2">
             <a
               href="https://www.linkedin.com/in/clarence-johnson-898b50a4/"
               target="_blank"
@@ -104,8 +101,11 @@ export default function Footer() {
               className="text-muted hover:text-white transition-colors"
               title="LinkedIn"
             >
-              <Linkedin className="w-4 h-4" />
+              <Linkedin className="w-6 h-6" />
             </a>
+            <p className="text-small text-muted">
+              © {currentYear} Rebelz AI. {t('footer.rights')}
+            </p>
           </div>
           <div className="flex items-center gap-6">
             <Link to="/privacy" className="text-small text-muted hover:text-white transition-colors">
