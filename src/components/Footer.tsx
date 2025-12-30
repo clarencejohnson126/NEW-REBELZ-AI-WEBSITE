@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { Linkedin } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
 export default function Footer() {
@@ -92,9 +93,20 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-small text-muted">
-            © {currentYear} Rebelz AI. {t('footer.rights')}
-          </p>
+          <div className="flex items-center gap-4">
+            <p className="text-small text-muted">
+              © {currentYear} Rebelz AI. {t('footer.rights')}
+            </p>
+            <a
+              href="https://www.linkedin.com/in/clarence-johnson-898b50a4/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted hover:text-white transition-colors"
+              title="LinkedIn"
+            >
+              <Linkedin className="w-4 h-4" />
+            </a>
+          </div>
           <div className="flex items-center gap-6">
             <Link to="/privacy" className="text-small text-muted hover:text-white transition-colors">
               {t('footer.privacy')}
