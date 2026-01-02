@@ -114,7 +114,7 @@ export default function Footer() {
                 <img
                   src="https://eoahpwciwttfavzpqfnz.supabase.co/storage/v1/object/sign/logos/final%20logo%20website.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85YmJlMzI3NC0xODJjLTRmZGUtODk2NC1hMTcxNzVmY2I1NGIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJsb2dvcy9maW5hbCBsb2dvIHdlYnNpdGUucG5nIiwiaWF0IjoxNzY3MzYyODY4LCJleHAiOjE5NTY1Nzg4Njh9.rE7vIwNt1YfbsXA9Vw2AXBPhBS0_5aEruqQ83PSkHNs"
                   alt="BarberBuddy"
-                  className="w-[38px] h-[38px] object-contain"
+                  className="w-[72px] h-[72px] object-contain"
                 />
               </a>
             </div>
