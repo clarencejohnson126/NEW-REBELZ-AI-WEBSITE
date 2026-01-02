@@ -94,15 +94,30 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex flex-col items-start gap-2">
-            <a
-              href="https://www.linkedin.com/in/clarence-johnson-898b50a4/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted hover:text-white transition-colors"
-              title="LinkedIn"
-            >
-              <Linkedin className="w-6 h-6" />
-            </a>
+            <div className="flex items-center gap-3">
+              <a
+                href="https://www.linkedin.com/in/clarence-johnson-898b50a4/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted hover:text-white transition-colors"
+                title="LinkedIn"
+              >
+                <Linkedin className="w-6 h-6" />
+              </a>
+              <a
+                href="https://apps.apple.com/us/app/barberbuddyapp/id6749862156"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted hover:text-white transition-colors hover:opacity-80"
+                title="BarberBuddy App"
+              >
+                <img
+                  src="https://eoahpwciwttfavzpqfnz.supabase.co/storage/v1/object/sign/logos/final%20logo%20website.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85YmJlMzI3NC0xODJjLTRmZGUtODk2NC1hMTcxNzVmY2I1NGIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJsb2dvcy9maW5hbCBsb2dvIHdlYnNpdGUucG5nIiwiaWF0IjoxNzY3MzYyODY4LCJleHAiOjE5NTY1Nzg4Njh9.rE7vIwNt1YfbsXA9Vw2AXBPhBS0_5aEruqQ83PSkHNs"
+                  alt="BarberBuddy"
+                  className="w-6 h-6 object-contain"
+                />
+              </a>
+            </div>
             <p className="text-small text-muted">
               © {currentYear} Rebelz AI. {t('footer.rights')}
             </p>
