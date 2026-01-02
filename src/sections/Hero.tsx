@@ -250,7 +250,7 @@ export default function Hero() {
         {/* Subtext - italic serif font with letter animation */}
         <div
           key={`subtext-${key}`}
-          className={`font-serif italic text-sm sm:text-base md:text-h4 text-muted max-w-2xl mx-auto mb-8 md:mb-12 transition-opacity duration-700 ${
+          className={`font-serif italic text-2xl sm:text-3xl md:text-h2 text-muted max-w-3xl mx-auto mb-8 md:mb-12 transition-opacity duration-700 ${
             isFadingOut ? 'opacity-0' : 'opacity-100'
           }`}
         >
