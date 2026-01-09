@@ -127,7 +127,7 @@ export default function Footer() {
                 <img
                   src="https://gxwzhgqeloqbgptrgcvo.supabase.co/storage/v1/object/public/all/original-53B10CB4-698B-4DCB-B4EA-F5B50A7EB370.jpeg"
                   alt="Angebots Agent"
-                  className="w-[54px] h-[54px] object-contain"
+                  className="w-[108px] h-[108px] object-contain"
                 />
               </a>
             </div>
