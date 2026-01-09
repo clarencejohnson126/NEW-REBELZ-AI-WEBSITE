@@ -117,6 +117,19 @@ export default function Footer() {
                   className="w-[54px] h-[54px] object-contain"
                 />
               </a>
+              <a
+                href="https://www.angebots-agent.de"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted hover:text-white transition-colors hover:opacity-80"
+                title="Angebots Agent"
+              >
+                <img
+                  src="https://gxwzhgqeloqbgptrgcvo.supabase.co/storage/v1/object/public/all/original-53B10CB4-698B-4DCB-B4EA-F5B50A7EB370.jpeg"
+                  alt="Angebots Agent"
+                  className="w-[54px] h-[54px] object-contain"
+                />
+              </a>
             </div>
             <p className="text-small text-muted">
               © {currentYear} Rebelz AI. {t('footer.rights')}
