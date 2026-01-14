@@ -94,7 +94,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex flex-col items-start gap-2">
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-6">
               <a
                 href="https://www.linkedin.com/in/clarence-johnson-898b50a4/"
                 target="_blank"
@@ -128,6 +128,19 @@ export default function Footer() {
                   src="https://gxwzhgqeloqbgptrgcvo.supabase.co/storage/v1/object/public/all/original-53B10CB4-698B-4DCB-B4EA-F5B50A7EB370.jpeg"
                   alt="Angebots Agent"
                   className="w-[205px] h-[205px] object-contain"
+                />
+              </a>
+              <a
+                href="https://snapplan.tech/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted hover:text-white transition-colors hover:opacity-80"
+                title="SnapPlan"
+              >
+                <img
+                  src="https://gxwzhgqeloqbgptrgcvo.supabase.co/storage/v1/object/public/all/Adobe%20Express%20-%20file.png"
+                  alt="SnapPlan"
+                  className="w-[54px] h-[54px] object-contain"
                 />
               </a>
             </div>
