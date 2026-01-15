@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { MessageSquare, Phone, Cpu, Smartphone, Globe, Wrench, Handshake } from 'lucide-react'
+import { MessageSquare, Phone, Cpu, Smartphone, Globe, Wrench, FolderOpen, Handshake } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import ServiceModal from '../components/ServiceModal'
 import SectionHeader from '../components/SectionHeader'
@@ -11,10 +11,11 @@ const serviceIcons = {
   mobile: Smartphone,
   web: Globe,
   tools: Wrench,
+  'construction-files': FolderOpen,
   partner: Handshake,
 }
 
-const serviceIds = ['whatsapp', 'voice', 'ai-systems', 'mobile', 'web', 'tools', 'partner'] as const
+const serviceIds = ['whatsapp', 'voice', 'ai-systems', 'mobile', 'web', 'tools', 'construction-files', 'partner'] as const
 
 export default function Services() {
   const { t } = useTranslation()

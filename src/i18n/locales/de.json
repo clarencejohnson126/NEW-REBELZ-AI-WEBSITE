@@ -103,6 +103,16 @@
         "whyCare": "Vermeidet den Friedhof ungenutzter Abonnements. Bekommt Tools, die tatsächlich genutzt werden.",
         "features": ["Tool-Auswahl und Prüfung", "Integrations-Setup", "Team-Schulung", "Workflow-Optimierung", "Laufende Unterstützung"]
       },
+      "construction-files": {
+        "title": "Baustellen-Dokumentenmanagement",
+        "summary": "Desktop-Chaos wird Projektstruktur. Fotos, Pläne, Protokolle – automatisch sortiert nach Gewerk, Projekt und Datum.",
+        "description": "Euer digitales Baustellenchaos wird automatisch zur strukturierten Projektakte. Desktop aufräumen, Dateien organisieren, Fotos sortieren – alles in einem.",
+        "whoFor": "Bauleiter, Projektleiter, Subunternehmer – alle, deren Desktop vor Dateien überquillt und die abends noch Ordnung schaffen müssen, statt Feierabend zu machen.",
+        "problem": "Euer Desktop ist ein Schlachtfeld. 500 Fotos vom letzten Monat, Pläne in drei verschiedenen Versionen, Protokolle irgendwo zwischen Downloads und WhatsApp-Bildern. Ihr wisst, dass ihr das sortieren müsst – aber wann? Jede Abnahme wird zur Schnitzeljagd. Jeder Nachtrag zur Suche nach dem Beweis-Foto. Und der Tagesbericht? Wartet, bis ihr endlich die richtigen Dateien gefunden habt.",
+        "solution": "Gebt uns Zugriff auf eure Ordner – wir machen den Rest. Das System sortiert automatisch: Fotos nach Gewerk und Mängeltyp, Dokumente nach Projekt und Version, alles nach Datum und Bauphase. Ihr bekommt eine saubere Ordnerstruktur, die ihr sofort für Berichte, Abnahmen und Nachträge nutzen könnt. 10.000 Dateien auf dem Desktop? Kein Problem.",
+        "whyCare": "Nie wieder Feierabend opfern fürs Sortieren. Nie wieder bei der Abnahme das Beweis-Foto nicht finden. Nie wieder Diskussionen wegen fehlender Dokumentation. Euer gesamtes Projektarchiv – strukturiert, durchsuchbar, griffbereit.",
+        "features": ["Automatische Foto-Sortierung nach Gewerk (Elektro, Sanitär, Rohbau, HVAC, Tiefbau...)", "Dokumenten-Organisation nach Projekt, Version und Typ", "Desktop-Aufräumung und Ordnerstruktur-Erstellung", "Erkennung von Mängeln, Baufortschritt und Abnahmefotos", "Sortierung nach Bauphase, Bereich und Geschoss", "Export-fertige Struktur für Tagesberichte und Abnahmen", "Batch-Verarbeitung für tausende Dateien gleichzeitig", "Suchfunktion über alle Projekte und Dateitypen", "Individuelle Kategorien nach euren Anforderungen"]
+      },
       "partner": {
         "title": "KI-Transformations-Partner",
         "summary": "Langfristige Zusammenarbeit. Strategische Beratung. Schrittweise Einführung ohne erzwungene Disruption.",

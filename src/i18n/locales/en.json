@@ -103,6 +103,16 @@
         "whyCare": "Avoid the graveyard of unused subscriptions. Get tools that actually get used.",
         "features": ["Tool selection and vetting", "Integration setup", "Team training", "Workflow optimization", "Ongoing support"]
       },
+      "construction-files": {
+        "title": "Construction Document Management",
+        "summary": "Desktop chaos becomes project structure. Photos, plans, protocols—automatically sorted by trade, project, and date.",
+        "description": "Your digital jobsite chaos becomes a structured project archive automatically. Desktop cleanup, file organization, photo sorting—all in one.",
+        "whoFor": "Site managers, project managers, subcontractors—anyone whose desktop is overflowing with files and who spends evenings organizing instead of relaxing.",
+        "problem": "Your desktop is a battlefield. 500 photos from last month, plans in three different versions, protocols somewhere between Downloads and WhatsApp images. You know you need to sort this—but when? Every inspection becomes a scavenger hunt. Every change order becomes a search for proof. And the daily report? Waiting until you finally find the right files.",
+        "solution": "Give us access to your folders—we handle the rest. The system automatically sorts: photos by trade and defect type, documents by project and version, everything by date and construction phase. You get a clean folder structure ready for reports, inspections, and change orders. 10,000 files on your desktop? No problem.",
+        "whyCare": "Never sacrifice your evening to sorting again. Never fail to find the proof photo at an inspection. Never argue over missing documentation. Your entire project archive—structured, searchable, at your fingertips.",
+        "features": ["Automatic photo sorting by trade (Electrical, Plumbing, Framing, HVAC, Civil...)", "Document organization by project, version, and type", "Desktop cleanup and folder structure creation", "Detection of defects, progress shots, and inspection photos", "Sorting by construction phase, area, and floor", "Export-ready structure for daily reports and inspections", "Batch processing for thousands of files at once", "Search function across all projects and file types", "Custom categories based on your requirements"]
+      },
       "partner": {
         "title": "AI Transformation Partner",
         "summary": "Long-term collaboration. Strategic guidance. Gradual adoption without forced disruption.",
