@@ -70,6 +70,17 @@ export default function Hero() {
 
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
+      {/* Gumroad button - top right */}
+      <div className="absolute top-24 right-4 md:right-8 z-20">
+        <a
+          className="gumroad-button"
+          href="https://rebelzai.gumroad.com/l/KI-Nachunternehmer"
+          data-gumroad-overlay-checkout="true"
+        >
+          KI für den Bau
+        </a>
+      </div>
+
       {/* Background image for slides that have one */}
       {slides.map((slide, index) => {
         const slideImage = isMobile ? slide.imageMobile : slide.imageDesktop
@@ -147,7 +158,7 @@ export default function Hero() {
         </div>
 
         {/* CTA */}
-        <div className="flex flex-col items-center gap-4">
+        <div>
           <a
             href="https://calendly.com/clarencejohnson/rebelz-ai-schlachtplan-gesprach"
             target="_blank"
@@ -156,12 +167,6 @@ export default function Hero() {
           >
             {t('hero.cta')}
             <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-          </a>
-          <a
-            className="gumroad-button"
-            href="https://rebelzai.gumroad.com/l/KI-Nachunternehmer"
-          >
-            Buy on
           </a>
         </div>
       </div>
