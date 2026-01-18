@@ -143,6 +143,15 @@ export default function Footer() {
                   className="w-[54px] h-[54px] object-contain"
                 />
               </a>
+              <a
+                href="https://rebelzai.gumroad.com/l/KI-Nachunternehmer"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted hover:text-white transition-colors text-sm font-medium"
+                title="KI-Nachunternehmer"
+              >
+                Gumroad
+              </a>
             </div>
             <p className="text-small text-muted">
               © {currentYear} Rebelz AI. {t('footer.rights')}
