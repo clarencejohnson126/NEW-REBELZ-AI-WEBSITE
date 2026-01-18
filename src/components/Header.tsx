@@ -36,7 +36,7 @@ export default function Header() {
           : 'bg-transparent'
       }`}
     >
-      <div className="container-main">
+      <div className="px-4 md:px-8 lg:px-12">
         <nav className="flex items-center justify-between h-20">
           {/* Logo - wrapper clips transparent padding from image */}
           <a
