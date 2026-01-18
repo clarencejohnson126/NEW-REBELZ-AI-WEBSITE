@@ -147,10 +147,14 @@ export default function Footer() {
                 href="https://rebelzai.gumroad.com/l/KI-Nachunternehmer"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-muted hover:text-white transition-colors text-sm font-medium"
-                title="KI-Nachunternehmer"
+                className="text-muted hover:text-white transition-colors hover:opacity-80"
+                title="Gumroad"
               >
-                Gumroad
+                <img
+                  src="https://eoahpwciwttfavzpqfnz.supabase.co/storage/v1/object/sign/unrelated/Logos-2f5a788f3c9c207ae5440df514a753308e6287be29cc80d91da0da6135ace192.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85YmJlMzI3NC0xODJjLTRmZGUtODk2NC1hMTcxNzVmY2I1NGIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1bnJlbGF0ZWQvTG9nb3MtMmY1YTc4OGYzYzljMjA3YWU1NDQwZGY1MTRhNzUzMzA4ZTYyODdiZTI5Y2M4MGQ5MWRhMGRhNjEzNWFjZTE5Mi53ZWJwIiwiaWF0IjoxNzY4NzEwMTEyLCJleHAiOjIwODQwNzAxMTJ9.amHSiHeuGjM268mezVOX4a_32IY_Mfdir79zMhrwI0I"
+                  alt="Gumroad"
+                  className="w-[54px] h-[54px] object-contain"
+                />
               </a>
             </div>
             <p className="text-small text-muted">
