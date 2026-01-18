@@ -147,7 +147,7 @@ export default function Hero() {
         </div>
 
         {/* CTA */}
-        <div>
+        <div className="flex flex-col items-center gap-4">
           <a
             href="https://calendly.com/clarencejohnson/rebelz-ai-schlachtplan-gesprach"
             target="_blank"
@@ -156,6 +156,12 @@ export default function Hero() {
           >
             {t('hero.cta')}
             <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+          </a>
+          <a
+            className="gumroad-button"
+            href="https://rebelzai.gumroad.com/l/KI-Nachunternehmer"
+          >
+            Buy on
           </a>
         </div>
       </div>
