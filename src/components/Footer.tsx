@@ -151,9 +151,9 @@ export default function Footer() {
                 title="Gumroad"
               >
                 <img
-                  src="https://eoahpwciwttfavzpqfnz.supabase.co/storage/v1/object/sign/unrelated/Logos-2f5a788f3c9c207ae5440df514a753308e6287be29cc80d91da0da6135ace192.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85YmJlMzI3NC0xODJjLTRmZGUtODk2NC1hMTcxNzVmY2I1NGIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1bnJlbGF0ZWQvTG9nb3MtMmY1YTc4OGYzYzljMjA3YWU1NDQwZGY1MTRhNzUzMzA4ZTYyODdiZTI5Y2M4MGQ5MWRhMGRhNjEzNWFjZTE5Mi53ZWJwIiwiaWF0IjoxNzY4NzEwMTEyLCJleHAiOjIwODQwNzAxMTJ9.amHSiHeuGjM268mezVOX4a_32IY_Mfdir79zMhrwI0I"
+                  src="https://eoahpwciwttfavzpqfnz.supabase.co/storage/v1/object/sign/unrelated/Adobe%20Express%20-%20file%20(1).png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85YmJlMzI3NC0xODJjLTRmZGUtODk2NC1hMTcxNzVmY2I1NGIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1bnJlbGF0ZWQvQWRvYmUgRXhwcmVzcyAtIGZpbGUgKDEpLnBuZyIsImlhdCI6MTc2ODc0ODMxNiwiZXhwIjoxOTU3OTY0MzE2fQ.Ycr9ZapThAHzYGbRioYUHcbVuocx6FaII7GfSH1oDMI"
                   alt="Gumroad"
-                  className="w-[79px] h-[79px] object-contain"
+                  className="w-[54px] h-[54px] object-contain"
                 />
               </a>
             </div>
