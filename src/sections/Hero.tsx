@@ -76,7 +76,7 @@ export default function Hero() {
           className="gumroad-button"
           href="https://rebelzai.gumroad.com/l/KI-Nachunternehmer"
         >
-          E-Book Bau
+          E-Book: KI &amp; Bau
         </a>
       </div>
 
