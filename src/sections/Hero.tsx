@@ -70,8 +70,8 @@ export default function Hero() {
 
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
-      {/* Gumroad button - top right */}
-      <div className="absolute top-24 right-4 md:right-8 z-20">
+      {/* Gumroad button - top right (desktop only) */}
+      <div className="absolute top-24 right-4 md:right-8 z-20 hidden md:block">
         <a
           className="gumroad-button"
           href="https://rebelzai.gumroad.com/l/KI-Nachunternehmer"
@@ -157,7 +157,7 @@ export default function Hero() {
         </div>
 
         {/* CTA */}
-        <div>
+        <div className="flex flex-col items-center gap-4">
           <a
             href="https://calendly.com/clarencejohnson/rebelz-ai-schlachtplan-gesprach"
             target="_blank"
@@ -167,6 +167,15 @@ export default function Hero() {
             {t('hero.cta')}
             <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </a>
+          {/* Gumroad button - mobile only (smaller) */}
+          <div className="block md:hidden scale-75 origin-top">
+            <a
+              className="gumroad-button"
+              href="https://rebelzai.gumroad.com/l/KI-Nachunternehmer"
+            >
+              E-Book: KI &amp; Bau
+            </a>
+          </div>
         </div>
       </div>
 
