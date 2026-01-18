@@ -75,9 +75,8 @@ export default function Hero() {
         <a
           className="gumroad-button"
           href="https://rebelzai.gumroad.com/l/KI-Nachunternehmer"
-          data-gumroad-overlay-checkout="true"
         >
-          KI für den Bau
+          E-Book Bau
         </a>
       </div>
 
