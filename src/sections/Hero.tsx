@@ -71,7 +71,7 @@ export default function Hero() {
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       {/* Gumroad button - top right (desktop only) */}
-      <div className="absolute top-24 right-4 md:right-8 z-20 hidden md:block">
+      <div className="absolute top-24 right-4 md:right-8 lg:right-12 z-20 hidden md:block">
         <a
           className="gumroad-button"
           href="https://rebelzai.gumroad.com/l/KI-Nachunternehmer"
