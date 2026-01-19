@@ -112,7 +112,7 @@ export default function Footer() {
                 title="BarberBuddy App"
               >
                 <img
-                  src="https://eoahpwciwttfavzpqfnz.supabase.co/storage/v1/object/sign/logos/final%20logo%20website.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85YmJlMzI3NC0xODJjLTRmZGUtODk2NC1hMTcxNzVmY2I1NGIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJsb2dvcy9maW5hbCBsb2dvIHdlYnNpdGUucG5nIiwiaWF0IjoxNzY3MzYyODY4LCJleHAiOjE5NTY1Nzg4Njh9.rE7vIwNt1YfbsXA9Vw2AXBPhBS0_5aEruqQ83PSkHNs"
+                  src="https://eoahpwciwttfavzpqfnz.supabase.co/storage/v1/object/sign/unrelated/BarberBuddyLogo.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85YmJlMzI3NC0xODJjLTRmZGUtODk2NC1hMTcxNzVmY2I1NGIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1bnJlbGF0ZWQvQmFyYmVyQnVkZHlMb2dvLnBuZyIsImlhdCI6MTc2ODg2NDA2NiwiZXhwIjoxOTU4MDgwMDY2fQ.gVg4XkLD0uVlIjWPR6GtGM34Pt01X459A0xzNAKATrg"
                   alt="BarberBuddy"
                   className="w-[54px] h-[54px] object-contain"
                 />
