@@ -121,20 +121,20 @@ export default function Footer() {
                 href="https://www.angebots-agent.de"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-muted hover:text-white transition-colors hover:opacity-80"
+                className="text-muted hover:text-white transition-colors hover:opacity-80 -ml-4"
                 title="Angebots Agent"
               >
                 <img
                   src="https://gxwzhgqeloqbgptrgcvo.supabase.co/storage/v1/object/public/all/original-53B10CB4-698B-4DCB-B4EA-F5B50A7EB370.jpeg"
                   alt="Angebots Agent"
-                  className="w-[54px] h-[54px] object-contain"
+                  className="w-[205px] h-[205px] object-contain"
                 />
               </a>
               <a
                 href="https://snapplan.tech/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-muted hover:text-white transition-colors hover:opacity-80"
+                className="text-muted hover:text-white transition-colors hover:opacity-80 -ml-4"
                 title="SnapPlan"
               >
                 <img
