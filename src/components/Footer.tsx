@@ -144,14 +144,14 @@ export default function Footer() {
                 />
               </a>
               <a
-                href="https://rebelzai.gumroad.com/l/KI-Nachunternehmer"
+                href="https://www.ki-bauunternehmer.de/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted hover:text-white transition-colors hover:opacity-80"
-                title="Gumroad"
+                title="KI Bauunternehmer"
               >
                 <img
-                  src="https://eoahpwciwttfavzpqfnz.supabase.co/storage/v1/object/sign/unrelated/Adobe%20Express%20-%20file%20(1).png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85YmJlMzI3NC0xODJjLTRmZGUtODk2NC1hMTcxNzVmY2I1NGIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1bnJlbGF0ZWQvQWRvYmUgRXhwcmVzcyAtIGZpbGUgKDEpLnBuZyIsImlhdCI6MTc2ODc0ODMxNiwiZXhwIjoxOTU3OTY0MzE2fQ.Ycr9ZapThAHzYGbRioYUHcbVuocx6FaII7GfSH1oDMI"
+                  src="https://eoahpwciwttfavzpqfnz.supabase.co/storage/v1/object/sign/unrelated/Adobe%20Express%20-%20file%20(3).png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85YmJlMzI3NC0xODJjLTRmZGUtODk2NC1hMTcxNzVmY2I1NGIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1bnJlbGF0ZWQvQWRvYmUgRXhwcmVzcyAtIGZpbGUgKDMpLnBuZyIsImlhdCI6MTc2ODg2Mjk2OCwiZXhwIjoxOTU4MDc4OTY4fQ.wpOiKK_I4_W7VpTJaBumMvxAJw4TL-HgK90cilukNx4"
                   alt="Gumroad"
                   className="w-[54px] h-[54px] object-contain"
                 />
