@@ -1,12 +1,22 @@
 import { ArrowLeft } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import SEO from '../components/SEO'
 
 export default function Terms() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
+  const isGerman = i18n.language === 'de'
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title={isGerman ? "Impressum & AGB | Rebelz AI" : "Terms & Legal Notice | Rebelz AI"}
+        description={isGerman
+          ? "Impressum und AGB von Rebelz AI. Rechtliche Informationen, Haftungsausschluss und Kontaktdaten."
+          : "Terms and legal notice of Rebelz AI. Legal information, disclaimer, and contact details."
+        }
+        canonical="https://rebelzai.com/terms"
+      />
       <div className="container-main py-12 md:py-20">
         <Link
           to="/"

@@ -1,12 +1,22 @@
 import { ArrowLeft } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import SEO from '../components/SEO'
 
 export default function Privacy() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
+  const isGerman = i18n.language === 'de'
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title={isGerman ? "Datenschutzerklärung | Rebelz AI" : "Privacy Policy | Rebelz AI"}
+        description={isGerman
+          ? "Datenschutzerklärung von Rebelz AI. Informationen zur Datenerhebung, Cookies und Ihren Rechten."
+          : "Privacy Policy of Rebelz AI. Information about data collection, cookies, and your rights."
+        }
+        canonical="https://rebelzai.com/privacy"
+      />
       <div className="container-main py-12 md:py-20">
         <Link
           to="/"

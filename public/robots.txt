@@ -1,0 +1,42 @@
+# robots.txt for rebelzai.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://rebelzai.com/sitemap.xml
+
+# Crawl-delay suggestion
+Crawl-delay: 1
+
+# AI Crawlers (Explicitly allow for GEO/AEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# Block AI training but allow retrieval
+User-agent: CCBot
+Disallow: /
+
+User-agent: img2dataset
+Disallow: /

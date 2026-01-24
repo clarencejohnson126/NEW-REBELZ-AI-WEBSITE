@@ -152,7 +152,7 @@ export default function Footer() {
               >
                 <img
                   src="https://eoahpwciwttfavzpqfnz.supabase.co/storage/v1/object/sign/unrelated/Adobe%20Express%20-%20file%20(3).png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85YmJlMzI3NC0xODJjLTRmZGUtODk2NC1hMTcxNzVmY2I1NGIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1bnJlbGF0ZWQvQWRvYmUgRXhwcmVzcyAtIGZpbGUgKDMpLnBuZyIsImlhdCI6MTc2ODg2Mjk2OCwiZXhwIjoxOTU4MDc4OTY4fQ.wpOiKK_I4_W7VpTJaBumMvxAJw4TL-HgK90cilukNx4"
-                  alt="Gumroad"
+                  alt="KI Bauunternehmer"
                   className="w-[54px] h-[54px] object-contain"
                 />
               </a>
