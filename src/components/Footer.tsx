@@ -151,8 +151,21 @@ export default function Footer() {
                 title="KI Bauunternehmer"
               >
                 <img
-                  src="https://eoahpwciwttfavzpqfnz.supabase.co/storage/v1/object/sign/unrelated/Adobe%20Express%20-%20file%20(3).png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85YmJlMzI3NC0xODJjLTRmZGUtODk2NC1hMTcxNzVmY2I1NGIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1bnJlbGF0ZWQvQWRvYmUgRXhwcmVzcyAtIGZpbGUgKDMpLnBuZyIsImlhdCI6MTc2ODg2Mjk2OCwiZXhwIjoxOTU4MDc4OTY4fQ.wpOiKK_I4_W7VpTJaBumMvxAJw4TL-HgK90cilukNx4"
+                  src="https://eoahpwciwttfavzpqfnz.supabase.co/storage/v1/object/sign/unrelated/Adobe%20Express%20-%20file%20(3).png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85YmJlMzI3NC0xODJjLTRmZGUtODk2NC1hMTcxNzVmY2I1NGIiLCJhbGciOiJ1cmwiOiJ1bnJlbGF0ZWQvQWRvYmUgRXhwcmVzcyAtIGZpbGUgKDMpLnBuZyIsImlhdCI6MTc2ODg2Mjk2OCwiZXhwIjoxOTU4MDc4OTY4fQ.wpOiKK_I4_W7VpTJaBumMvxAJw4TL-HgK90cilukNx4"
                   alt="KI Bauunternehmer"
+                  className="w-[54px] h-[54px] object-contain"
+                />
+              </a>
+              <a
+                href="https://www.neatlify.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted hover:text-white transition-colors hover:opacity-80"
+                title="Neatlify"
+              >
+                <img
+                  src="https://eoahpwciwttfavzpqfnz.supabase.co/storage/v1/object/sign/unrelated/Neatlify%20logo.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85YmJlMzI3NC0xODJjLTRmZGUtODk2NC1hMTcxNzVmY2I1NGIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1bnJlbGF0ZWQvTmVhdGxpZnkgbG9nby5wbmciLCJpYXQiOjE3Njk5NTU0NTcsImV4cCI6MTk1OTE3MTQ1N30.szWyFdftc1W9OSIYBPSo0JGRlkHDPgGaAjKioUadJMw"
+                  alt="Neatlify"
                   className="w-[54px] h-[54px] object-contain"
                 />
               </a>
