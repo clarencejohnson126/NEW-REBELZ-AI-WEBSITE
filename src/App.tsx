@@ -7,6 +7,7 @@ import Services from './sections/Services'
 import Clientele from './sections/Clientele'
 import About from './sections/About'
 import Testimonials from './sections/Testimonials'
+import FAQHomepage from './sections/FAQHomepage'
 import Contact from './sections/Contact'
 import Footer from './components/Footer'
 import Privacy from './pages/Privacy'
@@ -23,6 +24,7 @@ function HomePage() {
         <Clientele />
         <About />
         <Testimonials />
+        <FAQHomepage />
         <Contact />
       </main>
       <Footer />

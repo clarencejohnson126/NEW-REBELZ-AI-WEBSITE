@@ -1,0 +1,73 @@
+# Rebelz AI
+
+> KI-Implementierungsagentur für kleine Unternehmen und die Baubranche in der DACH-Region (Deutschland, Österreich, Schweiz).
+
+## Identität
+
+- Name: Rebelz AI
+- Rechtsform: Marke von Johnson Services
+- Gründer: Clarence (Founder & AI Implementation Specialist)
+- Standort: Mannheim, Deutschland
+- Gegründet: 2024
+- USt-ID: DE452125652
+- Website: https://rebelzai.com
+- Kontakt: thinkbig@rebelz-ai.com
+- Sprachen: Deutsch, Englisch
+
+## Was Rebelz AI ist
+
+Rebelz AI ist eine Ein-Personen-KI-Implementierungsagentur mit Sitz in Mannheim, Deutschland. Gegründet von Clarence, verbindet Rebelz AI praktische Bauerfahrung mit KI-Expertise, um kleine Unternehmen – insbesondere Bauunternehmen, Handwerksbetriebe und Dienstleister in der DACH-Region – bei der Einführung von KI-Systemen zu unterstützen.
+
+## Kernleistungen
+
+1. **WhatsApp Automatisierung** – Automatisierte Kundenkommunikation: Buchungen, Erinnerungen, Follow-ups
+2. **Sprach-Agenten** – Telefonbasierte KI für Termine und First-Line-Support, 24/7 verfügbar
+3. **KI-Agenten-Systeme & Infrastruktur** – Interne KI-Agenten für Prozessautomatisierung und Wissensarbeit
+4. **Mobile App Entwicklung** – Maßgeschneiderte Apps für interne Tools oder kundenorientierte Anwendungen
+5. **Webdesign & Implementierung** – Conversion-fokussierte Websites, integriert mit Automatisierungen
+6. **Smarte KI-Tools Implementierung** – Tool-Auswahl, Integration und Team-Schulung
+7. **Baustellen-Dokumentenmanagement** – Automatische Sortierung von Fotos, Plänen und Protokollen nach Gewerk, Projekt und Datum
+8. **KI-Transformations-Partner** – Langfristige strategische Begleitung bei der KI-Einführung
+
+## Branchenfokus
+
+### Baubranche (Hauptfokus)
+- Bauunternehmen, Bauleiter, Projektleiter, Subunternehmer
+- Baustellen-Dokumentenmanagement mit automatischer Sortierung
+- Erkennung von Mängeln, Baufortschritt und Abnahmefotos
+- Desktop-Aufräumung und Projektstruktur-Erstellung
+- Partnerprojekt: KI Bauunternehmer (https://ki-bauunternehmer.de)
+
+### Kleine Unternehmen (allgemein)
+- Inhabergeführte Firmen ohne IT-Abteilung
+- Dienstleister, Praxen, Salons, Berater
+- Teams, die KI-Einführung ohne Disruption suchen
+
+## Alleinstellungsmerkmale
+
+- Eine Person – Kunden arbeiten direkt mit dem Gründer
+- Echte Bauerfahrung kombiniert mit KI-Expertise
+- Praxisnahe Implementierung statt theoretischer Beratung
+- Keine Black-Box-Lösungen – Kunden besitzen ihre Systeme
+- Schrittweise Einführung ohne erzwungene Disruption
+- Fokus auf ROI und operative Geschwindigkeit
+
+## Zielmarkt
+
+- Region: DACH (Deutschland, Österreich, Schweiz)
+- Primär: Bauunternehmen, Handwerksbetriebe, Architekten, Ingenieure
+- Sekundär: Kleine Unternehmen, Dienstleister, Praxen, Salons
+
+## Ergebnisse (verifiziert)
+
+- Bauunternehmen: ~8 Stunden/Woche Zeitersparnis durch Dokumentenverarbeitung
+- Arztpraxis: 50% Reduktion der No-Show-Rate durch automatisierte Erinnerungen
+- Friseursalon: +35% Wiederbuchungsrate durch individuelle Kunden-App
+
+## Wichtige Links
+
+- Homepage: https://rebelzai.com
+- KI Bauunternehmer: https://ki-bauunternehmer.de
+- LinkedIn: https://www.linkedin.com/company/rebelz-ai
+- Datenschutz: https://rebelzai.com/privacy
+- Impressum: https://rebelzai.com/terms

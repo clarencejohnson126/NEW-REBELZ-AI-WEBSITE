@@ -6,6 +6,10 @@ Allow: /
 # Sitemap location
 Sitemap: https://rebelzai.com/sitemap.xml
 
+# LLMs.txt for AI crawlers
+# https://llmstxt.org
+# See: https://rebelzai.com/llms.txt
+
 # Crawl-delay suggestion
 Crawl-delay: 1
 

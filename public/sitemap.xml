@@ -5,7 +5,7 @@
   <!-- Homepage -->
   <url>
     <loc>https://rebelzai.com/</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rebelzai.com/"/>
@@ -15,7 +15,7 @@
   <!-- Privacy Policy -->
   <url>
     <loc>https://rebelzai.com/privacy</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -23,7 +23,7 @@
   <!-- Terms & Impressum -->
   <url>
     <loc>https://rebelzai.com/terms</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>

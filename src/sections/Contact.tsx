@@ -52,7 +52,7 @@ export default function Contact() {
         <div className="grid lg:grid-cols-2 gap-16">
           {/* Content */}
           <div>
-            <SectionHeader number="06" titleKey="contact.sectionTitle" />
+            <SectionHeader number="07" titleKey="contact.sectionTitle" />
             <p className="text-body text-muted mb-8">
               {t('contact.description')}
             </p>

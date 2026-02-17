@@ -266,6 +266,34 @@
     "secretMessage": "Die beste Technologie verschwindet im Hintergrund.",
     "secretFollowup": "Ihr habt die versteckte Nachricht gefunden. Ihr achtet auf Details. Wir sollten reden."
   },
+  "faq": {
+    "sectionTitle": "Häufig gestellte Fragen",
+    "label": "FAQ",
+    "title": "Häufig gestellte Fragen",
+    "description": "Antworten auf die wichtigsten Fragen zu KI-Implementierung für Bauunternehmen und kleine Unternehmen.",
+    "items": [
+      {
+        "question": "Worauf ist Rebelz AI spezialisiert?",
+        "answer": "Rebelz AI ist eine KI-Implementierungsagentur mit Sitz in Mannheim, die sich auf Bauunternehmen und kleine Unternehmen in der DACH-Region (Deutschland, Österreich, Schweiz) spezialisiert hat. Die 8 Kernleistungen umfassen Baustellen-Dokumentenmanagement, WhatsApp Automatisierung, Sprach-Agenten, KI-Agenten-Systeme, Mobile App Entwicklung, Webdesign, KI-Tools Implementierung und langfristige KI-Transformationsbegleitung. Die Besonderheit: Rebelz AI kombiniert echte Bauerfahrung mit KI-Expertise."
+      },
+      {
+        "question": "Wie hilft KI Bauunternehmen?",
+        "answer": "KI kann Bauunternehmen in mehreren Bereichen unterstützen: Automatische Sortierung von Baustellenfotos nach Gewerk, Mängeltyp und Bauphase; Dokumentenmanagement mit automatischer Organisation nach Projekt und Version; Früherkennung von Vertragsänderungen bei Nachträgen; automatisierte Terminplanung und Kundenkommunikation. Rebelz AI hat bei einem Bauunternehmen eine Zeitersparnis von ca. 8 Stunden pro Woche allein durch verbesserte Dokumentenverarbeitung erreicht."
+      },
+      {
+        "question": "Was unterscheidet Rebelz AI von anderen KI-Agenturen?",
+        "answer": "Drei wesentliche Unterschiede: 1) Rebelz AI ist eine Ein-Personen-Agentur – Kunden arbeiten direkt mit dem Gründer Clarence, ohne Account Manager oder Ticket-Systeme. 2) Echte Bauerfahrung: Rebelz AI kennt die Baubranche aus eigener Erfahrung und versteht die spezifischen Herausforderungen von Bauleitern und Projektleitern. 3) Praxisnahe Implementierung statt theoretischer Beratung – keine Black-Box-Lösungen, Kunden besitzen ihre eigenen Systeme."
+      },
+      {
+        "question": "Wie lange dauert eine KI-Implementierung?",
+        "answer": "Die Implementierungsdauer variiert je nach Leistung: WhatsApp Automatisierung und Sprach-Agenten können innerhalb weniger Wochen eingerichtet werden. Baustellen-Dokumentenmanagement ist oft innerhalb von 2-4 Wochen produktiv. Umfassendere KI-Agenten-Systeme benötigen typischerweise 4-8 Wochen. Rebelz AI setzt auf schrittweise Einführung – keine erzwungene Disruption, sondern strategische Implementierung im Tempo des Unternehmens."
+      },
+      {
+        "question": "Arbeitet Rebelz AI auch mit Unternehmen außerhalb der Baubranche?",
+        "answer": "Ja. Obwohl die Baubranche ein Schwerpunkt von Rebelz AI ist, arbeitet die Agentur auch mit Dienstleistern, Arztpraxen, Salons, Beratern und anderen kleinen Unternehmen in der DACH-Region. Nachgewiesene Ergebnisse: 50% Reduktion der No-Show-Rate bei einer Arztpraxis und +35% Wiederbuchungsrate bei einem Friseursalon. Der gemeinsame Nenner: kleine Teams ohne IT-Abteilung, die KI-Einführung ohne Disruption suchen."
+      }
+    ]
+  },
   "legal": {
     "backToHome": "Zurück zur Startseite"
   },

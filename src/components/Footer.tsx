@@ -72,6 +72,14 @@ export default function Footer() {
               </li>
               <li>
                 <a
+                  href="tel:+4915157731682"
+                  className="text-body-sm text-muted hover:text-white transition-colors group"
+                >
+                  <span className="group-hover:underline">+49 151 57731682</span>
+                </a>
+              </li>
+              <li>
+                <a
                   href="https://calendly.com/clarencejohnson/rebelz-ai-schlachtplan-gesprach"
                   target="_blank"
                   rel="noopener noreferrer"

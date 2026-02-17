@@ -266,6 +266,34 @@
     "secretMessage": "The best technology disappears into the background.",
     "secretFollowup": "You found the hidden message. You pay attention to details. We should talk."
   },
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "description": "Answers to key questions about AI implementation for construction companies and small businesses.",
+    "items": [
+      {
+        "question": "What does Rebelz AI specialize in?",
+        "answer": "Rebelz AI is an AI implementation agency based in Mannheim, Germany, specializing in construction companies and small businesses across the DACH region (Germany, Austria, Switzerland). The 8 core services include construction document management, WhatsApp automation, voice agents, AI agent systems, mobile app development, web design, AI tools implementation, and long-term AI transformation partnership. The key differentiator: Rebelz AI combines real construction industry experience with AI expertise."
+      },
+      {
+        "question": "How does AI help construction companies?",
+        "answer": "AI can support construction companies in multiple areas: automatic sorting of jobsite photos by trade, defect type, and construction phase; document management with automatic organization by project and version; early detection of contract changes in addendums; automated scheduling and client communication. Rebelz AI achieved time savings of approximately 8 hours per week at one construction company through improved document processing alone."
+      },
+      {
+        "question": "What makes Rebelz AI different from other AI agencies?",
+        "answer": "Three key differences: 1) Rebelz AI is a one-person agency — clients work directly with founder Clarence, with no account managers or ticket systems. 2) Real construction experience: Rebelz AI knows the building industry firsthand and understands the specific challenges of site managers and project leaders. 3) Hands-on implementation rather than theoretical consulting — no black-box solutions, clients own their systems."
+      },
+      {
+        "question": "How long does AI implementation take?",
+        "answer": "Implementation timelines vary by service: WhatsApp automation and voice agents can be set up within a few weeks. Construction document management is often productive within 2-4 weeks. More comprehensive AI agent systems typically require 4-8 weeks. Rebelz AI follows a gradual adoption approach — no forced disruption, but strategic implementation at the company's own pace."
+      },
+      {
+        "question": "Does Rebelz AI work with companies outside the construction industry?",
+        "answer": "Yes. While construction is a core focus, Rebelz AI also works with service providers, medical practices, salons, consultants, and other small businesses in the DACH region. Proven results outside construction: 50% reduction in no-show rates at a medical practice and +35% rebooking rate at a hair studio. The common thread: small teams without IT departments who want AI adoption without disruption."
+      }
+    ]
+  },
   "legal": {
     "backToHome": "Back to home"
   },
