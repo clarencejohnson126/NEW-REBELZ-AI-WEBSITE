@@ -64,9 +64,20 @@ Rebelz AI ist eine Ein-Personen-KI-Implementierungsagentur mit Sitz in Mannheim,
 - Arztpraxis: 50% Reduktion der No-Show-Rate durch automatisierte Erinnerungen
 - Friseursalon: +35% Wiederbuchungsrate durch individuelle Kunden-App
 
+## Blog
+
+Praxiswissen zu KI-Implementierung, Automatisierung und digitaler Transformation:
+
+1. **KI-Agenten in der Baubranche: Was wirklich funktioniert** – https://rebelzai.com/blog/ki-agenten-baubranche-2025
+2. **WhatsApp-Automatisierung für Bauunternehmen** – https://rebelzai.com/blog/whatsapp-automatisierung-bauunternehmen
+3. **Baustellen-Dokumentenmanagement mit KI** – https://rebelzai.com/blog/baustellen-dokumentenmanagement-ki
+4. **AI Agents for Construction in the DACH Region** – https://rebelzai.com/blog/ai-agents-construction-dach
+5. **KI-Implementierung für kleine Unternehmen** – https://rebelzai.com/blog/ki-implementierung-kleine-unternehmen
+
 ## Wichtige Links
 
 - Homepage: https://rebelzai.com
+- Blog: https://rebelzai.com/blog
 - KI Bauunternehmer: https://ki-bauunternehmer.de
 - LinkedIn: https://www.linkedin.com/company/rebelz-ai
 - Datenschutz: https://rebelzai.com/privacy

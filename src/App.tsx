@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { Analytics } from '@vercel/analytics/react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
@@ -12,6 +13,8 @@ import Contact from './sections/Contact'
 import Footer from './components/Footer'
 import Privacy from './pages/Privacy'
 import Terms from './pages/Terms'
+import BlogIndex from './pages/BlogIndex'
+import BlogPost from './pages/BlogPost'
 
 function HomePage() {
   return (
@@ -33,6 +36,10 @@ function HomePage() {
 }
 
 function App() {
+  useEffect(() => {
+    document.dispatchEvent(new Event('render-complete'))
+  }, [])
+
   return (
     <BrowserRouter>
       <div className="min-h-screen bg-background">
@@ -40,6 +47,8 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/terms" element={<Terms />} />
+          <Route path="/blog" element={<BlogIndex />} />
+          <Route path="/blog/:slug" element={<BlogPost />} />
         </Routes>
         <Analytics />
       </div>

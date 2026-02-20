@@ -5,11 +5,55 @@
   <!-- Homepage -->
   <url>
     <loc>https://rebelzai.com/</loc>
-    <lastmod>2026-02-17</lastmod>
+    <lastmod>2026-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://rebelzai.com/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://rebelzai.com/"/>
+  </url>
+
+  <!-- Blog Index -->
+  <url>
+    <loc>https://rebelzai.com/blog</loc>
+    <lastmod>2026-02-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog Posts -->
+  <url>
+    <loc>https://rebelzai.com/blog/ki-agenten-baubranche-2025</loc>
+    <lastmod>2026-02-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://rebelzai.com/blog/whatsapp-automatisierung-bauunternehmen</loc>
+    <lastmod>2026-02-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://rebelzai.com/blog/baustellen-dokumentenmanagement-ki</loc>
+    <lastmod>2026-02-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://rebelzai.com/blog/ai-agents-construction-dach</loc>
+    <lastmod>2026-02-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://rebelzai.com/blog/ki-implementierung-kleine-unternehmen</loc>
+    <lastmod>2026-02-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
   <!-- Privacy Policy -->

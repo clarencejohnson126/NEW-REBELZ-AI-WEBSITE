@@ -1,11 +1,22 @@
 import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import { createRoot, hydrateRoot } from 'react-dom/client'
 import './i18n'
 import './index.css'
 import App from './App'
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+const root = document.getElementById('root')!
+
+if (root.hasChildNodes()) {
+  hydrateRoot(
+    root,
+    <StrictMode>
+      <App />
+    </StrictMode>,
+  )
+} else {
+  createRoot(root).render(
+    <StrictMode>
+      <App />
+    </StrictMode>,
+  )
+}
