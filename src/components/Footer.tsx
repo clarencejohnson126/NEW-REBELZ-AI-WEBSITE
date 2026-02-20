@@ -55,6 +55,14 @@ export default function Footer() {
                   </a>
                 </li>
               ))}
+              <li>
+                <Link
+                  to="/blog"
+                  className="text-body-sm text-muted hover:text-white hover:translate-x-1 transition-all inline-block"
+                >
+                  {t('nav.blog')}
+                </Link>
+              </li>
             </ul>
           </div>
 

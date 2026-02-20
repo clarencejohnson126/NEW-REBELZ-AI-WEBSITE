@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Menu, X, Globe } from 'lucide-react'
+import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
 export default function Header() {
@@ -61,6 +62,9 @@ export default function Header() {
                 {link.label}
               </a>
             ))}
+            <Link to="/blog" className="nav-link">
+              {t('nav.blog')}
+            </Link>
 
             {/* Language Toggle */}
             <button
@@ -119,6 +123,13 @@ export default function Header() {
                 {link.label}
               </a>
             ))}
+            <Link
+              to="/blog"
+              className="nav-link py-2"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              {t('nav.blog')}
+            </Link>
             <a
               href="https://calendly.com/clarencejohnson/rebelz-ai-schlachtplan-gesprach"
               target="_blank"
