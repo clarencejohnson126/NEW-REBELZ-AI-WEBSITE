@@ -1,6 +1,7 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { MessageSquare, Phone, Cpu, Smartphone, Globe, Wrench, FolderOpen, Handshake } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
+import { useLocation } from 'react-router-dom'
 import ServiceModal from '../components/ServiceModal'
 import SectionHeader from '../components/SectionHeader'
 
@@ -19,8 +20,15 @@ const serviceIds = ['whatsapp', 'voice', 'ai-systems', 'mobile', 'web', 'tools',
 
 export default function Services() {
   const { t } = useTranslation()
+  const location = useLocation()
   const [selectedServiceId, setSelectedServiceId] = useState<string | null>(null)
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
+
+  useEffect(() => {
+    if (location.hash === '#nachtragsagent') {
+      setSelectedServiceId('ai-systems')
+    }
+  }, [location.hash])
 
   const getService = (id: string) => {
     const Icon = serviceIcons[id as keyof typeof serviceIcons]
@@ -65,6 +73,13 @@ export default function Services() {
                   transform: hoveredIndex === index ? 'translateY(-8px)' : 'translateY(0)',
                 }}
               >
+                {/* Badge for NachtragsAgent */}
+                {service.id === 'ai-systems' && (
+                  <span className="inline-block mb-4 px-3 py-1 text-xs font-semibold tracking-wide uppercase rounded-full bg-white/10 text-white border border-white/20">
+                    NEU: NachtragsAgent
+                  </span>
+                )}
+
                 {/* Icon with float animation on hover */}
                 <div className={`transition-transform duration-500 ${hoveredIndex === index ? 'animate-float' : ''}`}>
                   <service.icon className="w-8 h-8 text-muted mb-6 group-hover:text-foreground transition-colors duration-300" />

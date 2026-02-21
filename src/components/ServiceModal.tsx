@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react'
-import { X } from 'lucide-react'
+import { X, Phone } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
 interface ServiceModalProps {
@@ -139,14 +139,25 @@ export default function ServiceModal({ isOpen, onClose, service }: ServiceModalP
             <p className="text-body-sm text-muted">
               {service.title}
             </p>
-            <a
-              href="https://calendly.com/clarencejohnson/rebelz-ai-schlachtplan-gesprach"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-primary"
-            >
-              {t('serviceModal.cta')}
-            </a>
+            <div className="flex flex-col sm:flex-row gap-3 items-center">
+              {service.id === 'ai-systems' && (
+                <a
+                  href="tel:+4915157731682"
+                  className="inline-flex items-center gap-2 px-4 py-2 text-body-sm text-foreground border border-border rounded-md hover:bg-white/5 transition-colors"
+                >
+                  <Phone className="w-4 h-4" />
+                  +49 151 5773 1682
+                </a>
+              )}
+              <a
+                href="https://calendly.com/clarencejohnson/rebelz-ai-schlachtplan-gesprach"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary"
+              >
+                {t('serviceModal.cta')}
+              </a>
+            </div>
           </div>
         </div>
       </div>

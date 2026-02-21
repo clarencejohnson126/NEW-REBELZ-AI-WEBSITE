@@ -66,13 +66,13 @@
       },
       "ai-systems": {
         "title": "KI-Agenten-Systeme & Infrastruktur",
-        "summary": "Interne KI-Agenten, die Prozesse automatisieren und Wissensarbeit für kleine Teams übernehmen.",
-        "description": "Interne KI, die die Arbeit zwischen der Arbeit erledigt.",
-        "whoFor": "Kleine Teams, die in Admin ertrinken. Unternehmen mit Prozessen, die keine ständige Aufmerksamkeit erfordern sollten.",
-        "problem": "Manuelle Dateneingabe. Copy-Paste zwischen Tools. Status-Updates. Die unsichtbare Arbeit, die euren Tag auffrisst.",
-        "solution": "Maßgeschneiderte KI-Agenten, die Informationen bewegen, Systeme aktualisieren und Routine-Entscheidungen automatisch treffen.",
-        "whyCare": "Leichtgewichtige Systeme, maßgeschneidert für kleine Teams. Keine Enterprise-Software. Nur die Automatisierung, die ihr wirklich braucht.",
-        "features": ["Prozessautomatisierung", "Datensynchronisation", "Dokumentenverarbeitung", "Interne Benachrichtigungen", "Wissensmanagement"]
+        "summary": "Interne KI-Agenten, die Prozesse automatisieren, Nachträge prüfen und Wissensarbeit für kleine Teams übernehmen.",
+        "description": "Interne KI, die die Arbeit zwischen der Arbeit erledigt – von Nachtragsprüfung bis Prozessautomatisierung.",
+        "whoFor": "Kleine Teams, die in Admin ertrinken. Bauunternehmen, die Nachträge schneller erkennen und durchsetzen müssen. Unternehmen mit Prozessen, die keine ständige Aufmerksamkeit erfordern sollten.",
+        "problem": "Manuelle Dateneingabe. Copy-Paste zwischen Tools. Nachträge, die zu spät erkannt oder schlecht dokumentiert werden. Die unsichtbare Arbeit, die euren Tag auffrisst und bares Geld kostet.",
+        "solution": "Maßgeschneiderte KI-Agenten, die Informationen bewegen, Systeme aktualisieren, Nachträge frühzeitig erkennen und Routine-Entscheidungen automatisch treffen. Unser NachtragsAgent analysiert Vertragsänderungen und markiert Nachtragspotenziale, bevor sie verloren gehen.",
+        "whyCare": "Leichtgewichtige Systeme, maßgeschneidert für kleine Teams. Keine Enterprise-Software. Im Nachtragswesen: Frühwarnung statt Nachsorge. Nur die Automatisierung, die ihr wirklich braucht.",
+        "features": ["Nachtragsmanagement", "Prozessautomatisierung", "Datensynchronisation", "Dokumentenverarbeitung", "Interne Benachrichtigungen", "Wissensmanagement"]
       },
       "mobile": {
         "title": "Mobile App Entwicklung",

@@ -66,13 +66,13 @@
       },
       "ai-systems": {
         "title": "AI Agent Systems & Infrastructure",
-        "summary": "Internal AI agents that automate processes and handle knowledge work for small teams.",
-        "description": "Internal AI that handles the work between the work.",
-        "whoFor": "Small teams drowning in admin. Businesses with processes that should not require constant attention.",
-        "problem": "Manual data entry. Copy-pasting between tools. Status updates. The invisible work that eats your day.",
-        "solution": "Custom AI agents that move information, update systems, and handle routine decisions automatically.",
-        "whyCare": "Lightweight systems tailored to small teams. Not enterprise software. Just the automation you actually need.",
-        "features": ["Process automation", "Data synchronization", "Document handling", "Internal notifications", "Knowledge management"]
+        "summary": "Internal AI agents that automate processes, review construction claims, and handle knowledge work for small teams.",
+        "description": "Internal AI that handles the work between the work—from claims management to process automation.",
+        "whoFor": "Small teams drowning in admin. Construction companies that need to catch change orders faster. Businesses with processes that should not require constant attention.",
+        "problem": "Manual data entry. Copy-pasting between tools. Change orders caught too late or poorly documented. The invisible work that eats your day and costs real money.",
+        "solution": "Custom AI agents that move information, update systems, detect change orders early, and handle routine decisions automatically. Our NachtragsAgent analyzes contract changes and flags claim potential before it is lost.",
+        "whyCare": "Lightweight systems tailored to small teams. Not enterprise software. For claims management: early warning instead of damage control. Just the automation you actually need.",
+        "features": ["Claims management", "Process automation", "Data synchronization", "Document handling", "Internal notifications", "Knowledge management"]
       },
       "mobile": {
         "title": "Mobile App Development",
