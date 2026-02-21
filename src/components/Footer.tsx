@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Linkedin } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
+import { handleCalendlyClick } from '../lib/calendly-tracking'
 
 export default function Footer() {
   const { t } = useTranslation()
@@ -89,8 +90,7 @@ export default function Footer() {
               <li>
                 <a
                   href="https://calendly.com/clarencejohnson/rebelz-ai-schlachtplan-gesprach"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  onClick={handleCalendlyClick}
                   className="text-body-sm text-muted hover:text-white transition-colors"
                 >
                   {t('nav.bookCall')}

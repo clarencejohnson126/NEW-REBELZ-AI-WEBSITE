@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import { Analytics } from '@vercel/analytics/react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { initCalendlyTracking } from './lib/calendly-tracking'
 import Header from './components/Header'
 import Hero from './sections/Hero'
 import Philosophy from './sections/Philosophy'
@@ -38,6 +39,10 @@ function HomePage() {
 function App() {
   useEffect(() => {
     document.dispatchEvent(new Event('render-complete'))
+  }, [])
+
+  useEffect(() => {
+    return initCalendlyTracking()
   }, [])
 
   return (

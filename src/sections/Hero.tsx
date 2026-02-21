@@ -1,6 +1,7 @@
 import { useState, useEffect, useMemo } from 'react'
 import { ArrowRight } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
+import { handleCalendlyClick } from '../lib/calendly-tracking'
 
 export default function Hero() {
   const { t } = useTranslation()
@@ -160,8 +161,7 @@ export default function Hero() {
         <div className="flex flex-col items-center gap-4">
           <a
             href="https://calendly.com/clarencejohnson/rebelz-ai-schlachtplan-gesprach"
-            target="_blank"
-            rel="noopener noreferrer"
+            onClick={handleCalendlyClick}
             className="btn-primary group inline-flex"
           >
             {t('hero.cta')}

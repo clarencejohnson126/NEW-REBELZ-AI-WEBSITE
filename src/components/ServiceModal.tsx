@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react'
 import { X, Phone } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
+import { handleCalendlyClick } from '../lib/calendly-tracking'
 
 interface ServiceModalProps {
   isOpen: boolean
@@ -151,8 +152,7 @@ export default function ServiceModal({ isOpen, onClose, service }: ServiceModalP
               )}
               <a
                 href="https://calendly.com/clarencejohnson/rebelz-ai-schlachtplan-gesprach"
-                target="_blank"
-                rel="noopener noreferrer"
+                onClick={handleCalendlyClick}
                 className="btn-primary"
               >
                 {t('serviceModal.cta')}

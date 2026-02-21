@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { ArrowRight, Loader2, CheckCircle, AlertCircle } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import SectionHeader from '../components/SectionHeader'
+import { handleCalendlyClick } from '../lib/calendly-tracking'
 
 type FormStatus = 'idle' | 'loading' | 'success' | 'error'
 
@@ -76,8 +77,7 @@ export default function Contact() {
               </p>
               <a
                 href="https://calendly.com/clarencejohnson/rebelz-ai-schlachtplan-gesprach"
-                target="_blank"
-                rel="noopener noreferrer"
+                onClick={handleCalendlyClick}
                 className="btn-primary inline-flex group"
               >
                 {t('nav.bookCall')}

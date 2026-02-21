@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { Menu, X, Globe } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { handleCalendlyClick } from '../lib/calendly-tracking'
 
 export default function Header() {
   const { t, i18n } = useTranslation()
@@ -78,8 +79,7 @@ export default function Header() {
 
             <a
               href="https://calendly.com/clarencejohnson/rebelz-ai-schlachtplan-gesprach"
-              target="_blank"
-              rel="noopener noreferrer"
+              onClick={handleCalendlyClick}
               className="btn-primary text-small py-3 px-6"
             >
               {t('nav.bookCall')}
@@ -132,10 +132,8 @@ export default function Header() {
             </Link>
             <a
               href="https://calendly.com/clarencejohnson/rebelz-ai-schlachtplan-gesprach"
-              target="_blank"
-              rel="noopener noreferrer"
               className="btn-primary text-center mt-4"
-              onClick={() => setIsMobileMenuOpen(false)}
+              onClick={(e) => { setIsMobileMenuOpen(false); handleCalendlyClick(e) }}
             >
               {t('nav.bookCall')}
             </a>
