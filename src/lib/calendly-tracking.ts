@@ -8,7 +8,7 @@
 
 const CALENDLY_URL = 'https://calendly.com/clarencejohnson/rebelz-ai-schlachtplan-gesprach'
 const GOOGLE_ADS_ID = 'AW-17968067129'
-const GOOGLE_ADS_LABEL = 'YYYYYYYYYYYYYYYY'
+const GOOGLE_ADS_LABEL = '_VULCImgzFwbELnk6_dC'
 
 const SESSION_KEY = 'calendlyBookedFired'
 
@@ -93,6 +93,8 @@ function handleMessage(e: MessageEvent) {
     if (window.gtag) {
       window.gtag('event', 'conversion', {
         send_to: `${GOOGLE_ADS_ID}/${GOOGLE_ADS_LABEL}`,
+        value: 1.0,
+        currency: 'EUR',
       })
       debug('Fired Google Ads conversion:', `${GOOGLE_ADS_ID}/${GOOGLE_ADS_LABEL}`)
     }
