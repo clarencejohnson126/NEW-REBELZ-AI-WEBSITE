@@ -22,7 +22,7 @@ interface FAQSectionProps {
  * - AI-friendly markup for GEO optimization
  */
 export default function FAQSection({
-  title = "Häufig gestellte Fragen",
+  title,
   description,
   items,
   className = ""
@@ -58,7 +58,7 @@ export default function FAQSection({
 
       {/* Header */}
       <div className="text-center mb-10">
-        <h2 id="faq-title" className="text-h2 text-white mb-4">{title}</h2>
+        {title && <h2 id="faq-title" className="text-h2 text-white mb-4">{title}</h2>}
         {description && (
           <p className="text-body text-muted max-w-2xl mx-auto">{description}</p>
         )}
