@@ -27,7 +27,7 @@ function HomePage() {
         <Services />
         <Clientele />
         <About />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <FAQHomepage />
         <Contact />
       </main>
