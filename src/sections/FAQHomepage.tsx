@@ -12,7 +12,6 @@ export default function FAQHomepage() {
       <div className="container-main">
         <SectionHeader number="06" titleKey="faq.sectionTitle" />
         <FAQSection
-          title={t('faq.title')}
           description={t('faq.description')}
           items={items}
         />
