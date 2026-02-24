@@ -77,7 +77,7 @@ export default function Hero() {
           className="gumroad-button"
           href="https://rebelzai.gumroad.com/l/KI-Nachunternehmer"
         >
-          E-Book: KI &amp; Bau
+          E-Book: KI &amp; Bau – Download Free
         </a>
       </div>
 
@@ -173,7 +173,7 @@ export default function Hero() {
               className="gumroad-button"
               href="https://rebelzai.gumroad.com/l/KI-Nachunternehmer"
             >
-              E-Book: KI &amp; Bau
+              E-Book: KI &amp; Bau – Download Free
             </a>
           </div>
         </div>
