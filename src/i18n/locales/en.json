@@ -295,6 +295,19 @@
       }
     ]
   },
+  "kiCheck": {
+    "badgeTitle": "Free AI Check",
+    "badgeSubtitle": "Click for details",
+    "backTitle": "What you get from the free AI Check:",
+    "points": [
+      "We analyze if and where AI makes sense in your business",
+      "Actionable recommendations, not generic promises",
+      "20 min call – no strings attached, zero sales pressure"
+    ],
+    "cta": "Book your free session now",
+    "note": "100% free. No hidden costs.",
+    "close": "Close"
+  },
   "legal": {
     "backToHome": "Back to home"
   },

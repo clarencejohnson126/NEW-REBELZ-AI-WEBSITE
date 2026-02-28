@@ -295,6 +295,19 @@
       }
     ]
   },
+  "kiCheck": {
+    "badgeTitle": "Kostenloser KI-Check",
+    "badgeSubtitle": "Klicken für Details",
+    "backTitle": "Was euch der kostenlose KI-Check bringt:",
+    "points": [
+      "Wir analysieren, ob und wo KI in eurem Betrieb sinnvoll ist",
+      "Konkrete Empfehlungen statt allgemeiner Versprechen",
+      "20 Min. Gespräch – unverbindlich und ohne Verkaufsdruck"
+    ],
+    "cta": "Jetzt kostenlosen Termin buchen",
+    "note": "100% kostenlos. Keine versteckten Kosten.",
+    "close": "Schließen"
+  },
   "legal": {
     "backToHome": "Zurück zur Startseite"
   },

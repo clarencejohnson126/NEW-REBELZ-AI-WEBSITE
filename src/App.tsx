@@ -12,6 +12,7 @@ import About from './sections/About'
 import FAQHomepage from './sections/FAQHomepage'
 import Contact from './sections/Contact'
 import Footer from './components/Footer'
+import KiCheckBadge from './components/KiCheckBadge'
 import Privacy from './pages/Privacy'
 import Terms from './pages/Terms'
 import BlogIndex from './pages/BlogIndex'
@@ -32,6 +33,7 @@ function HomePage() {
         <Contact />
       </main>
       <Footer />
+      <KiCheckBadge />
     </>
   )
 }
