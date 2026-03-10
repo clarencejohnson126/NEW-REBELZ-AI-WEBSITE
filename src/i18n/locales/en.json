@@ -172,12 +172,12 @@
   "about": {
     "sectionTitle": "About",
     "label": "About",
-    "title": "This is not a large agency.",
+    "title": "One point of contact. No middleman.",
     "intro": "My name is Clarence.",
-    "introFollow": "I run Rebelz AI alone.",
-    "p1": "Clients work directly with me. That means faster decisions, clearer communication, and systems that actually fit your business—not a template sold to a hundred others.",
-    "p2": "I am the strategist. I am the implementer. I am the one who answers when something breaks.",
-    "p3": "This model is not for everyone. Large companies need large teams. But for small businesses and owner-operated companies, working with one person who understands your entire operation is often exactly what makes AI adoption actually work.",
+    "introFollow": "I'm the founder and the mind behind Rebelz AI.",
+    "p1": "At Rebelz AI, clients work directly with me. That means faster decisions, clearer communication, and solutions that actually fit your business—not a template sold to a hundred others.",
+    "p2": "From strategy to execution—everything runs through one desk. And when something breaks, I'm the one who takes care of it.",
+    "p3": "If you're looking for an enterprise vendor, this isn't the right fit. But for small businesses and owner-operated companies, this is often the decisive advantage: someone who understands your entire operation and makes AI adoption actually work.",
     "workingWith": "What working with me looks like",
     "traits": [
       { "title": "Direct access", "desc": "No account managers. No ticket systems." },

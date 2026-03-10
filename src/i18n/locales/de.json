@@ -172,12 +172,12 @@
   "about": {
     "sectionTitle": "Über mich",
     "label": "Über mich",
-    "title": "Das ist keine große Agentur.",
+    "title": "Ein Ansprechpartner. Kein Mittelsmann.",
     "intro": "Mein Name ist Clarence.",
-    "introFollow": "Ich führe Rebelz AI allein.",
-    "p1": "Kunden arbeiten direkt mit mir. Das bedeutet schnellere Entscheidungen, klarere Kommunikation und Systeme, die tatsächlich zu eurem Unternehmen passen – keine Vorlage, die an hundert andere verkauft wurde.",
-    "p2": "Ich bin der Stratege. Ich bin der Umsetzer. Ich bin derjenige, der antwortet, wenn etwas nicht funktioniert.",
-    "p3": "Dieses Modell ist nicht für jeden. Große Unternehmen brauchen große Teams. Aber für kleine Unternehmen und inhabergeführte Firmen ist die Zusammenarbeit mit einer Person, die euren gesamten Betrieb versteht, oft genau das, was KI-Einführung tatsächlich zum Funktionieren bringt.",
+    "introFollow": "Ich bin Gründer und Kopf hinter Rebelz AI.",
+    "p1": "Bei Rebelz AI arbeiten Kunden direkt mit mir. Das bedeutet schnellere Entscheidungen, klarere Kommunikation und Lösungen, die wirklich zu eurem Unternehmen passen – keine Vorlage, die an hundert andere verkauft wurde.",
+    "p2": "Von der Strategie bis zur Umsetzung – hier läuft alles über einen Tisch. Und wenn etwas nicht funktioniert, bin ich derjenige, der sich darum kümmert.",
+    "p3": "Wer einen Konzerndienstleister sucht, ist hier falsch. Aber für kleine Unternehmen und inhabergeführte Firmen ist genau das oft der entscheidende Vorteil: jemand, der euren gesamten Betrieb versteht und KI-Einführung wirklich zum Laufen bringt.",
     "workingWith": "Wie die Zusammenarbeit mit mir aussieht",
     "traits": [
       { "title": "Direkter Zugang", "desc": "Keine Account Manager. Keine Ticket-Systeme." },
