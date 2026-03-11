@@ -27,7 +27,7 @@ export default function Terms() {
         </Link>
 
         <h1 className="text-h1 text-white mb-8">{t('terms.title')}</h1>
-        <p className="text-muted mb-8">{t('terms.lastUpdated')}: 29.12.2025</p>
+        <p className="text-muted mb-8">erstellt am: 17.02.2026</p>
 
         <div className="prose prose-invert max-w-none space-y-8">
           {/* Impressum Section */}
@@ -35,7 +35,7 @@ export default function Terms() {
             <h2 className="text-h3 text-white mb-4">{t('terms.impressum.title')}</h2>
             <p className="text-body text-muted">
               <strong>Clarence Johnson</strong><br />
-              Johnson Services<br />
+              Rebelz AI<br />
               George-Washington-Str. 219<br />
               68309 Mannheim<br />
               Deutschland<br /><br />
@@ -43,7 +43,6 @@ export default function Terms() {
             </p>
             <p className="text-body text-muted mt-4">
               {t('terms.impressum.taxInfo')}<br />
-              {t('terms.impressum.vatId')}<br />
               {t('terms.impressum.taxOffice')}
             </p>
           </section>
