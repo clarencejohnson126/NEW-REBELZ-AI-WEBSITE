@@ -110,7 +110,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex flex-col items-start gap-2">
-            <div className="hidden items-center gap-6">
+            <div className="flex items-center gap-6">
               <a
                 href="https://www.linkedin.com/in/clarence-johnson-898b50a4/"
                 target="_blank"
