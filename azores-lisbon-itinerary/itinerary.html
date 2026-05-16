@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Reise-Itinerary: Azoren &amp; Lissabon 2026</title>
+<style>
+  @page {
+    size: A4;
+    margin: 18mm 16mm 20mm 16mm;
+    @bottom-center {
+      content: "Azoren & Lissabon 2026  ·  Rebelz AI Reise-Dossier  ·  Seite " counter(page) " / " counter(pages);
+      font-size: 8pt;
+      color: #8a94a6;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+    }
+  }
+  @page :first { margin: 0; }
+
+  * { box-sizing: border-box; }
+  body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #2b3340;
+    font-size: 10.2pt;
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  /* ---------- Cover ---------- */
+  .cover {
+    height: 297mm;
+    background: linear-gradient(160deg, #0f3d3e 0%, #155e63 45%, #1d7874 70%, #2a9d8f 100%);
+    color: #fff;
+    padding: 34mm 22mm;
+    position: relative;
+  }
+  .cover .kicker {
+    font-size: 11pt; letter-spacing: 4px; text-transform: uppercase;
+    color: #ffd6a5; font-weight: 600;
+  }
+  .cover h1 {
+    font-size: 41pt; line-height: 1.08; margin: 14mm 0 6mm 0; font-weight: 800;
+  }
+  .cover h1 span { color: #ffd6a5; }
+  .cover .sub {
+    font-size: 13pt; color: #d6efe9; max-width: 130mm; line-height: 1.6;
+  }
+  .cover .meta {
+    position: absolute; bottom: 30mm; left: 22mm; right: 22mm;
+    border-top: 1px solid rgba(255,255,255,0.28); padding-top: 8mm;
+    display: flex; flex-wrap: wrap; gap: 9mm;
+  }
+  .cover .meta div { min-width: 38mm; }
+  .cover .meta .lbl { font-size: 8.5pt; letter-spacing: 2px; text-transform: uppercase; color: #9ed6cd; }
+  .cover .meta .val { font-size: 12.5pt; font-weight: 700; margin-top: 2mm; }
+  .cover .brand {
+    position: absolute; top: 26mm; right: 22mm; text-align: right;
+    font-size: 10pt; color: #cdeee7; letter-spacing: 1px;
+  }
+
+  /* ---------- Generic ---------- */
+  h2 {
+    font-size: 16.5pt; color: #0f3d3e; margin: 0 0 4mm 0;
+    border-bottom: 2.5px solid #2a9d8f; padding-bottom: 2mm;
+  }
+  h3 { font-size: 12pt; color: #155e63; margin: 6mm 0 2mm 0; }
+  p { margin: 0 0 3mm 0; }
+  a { color: #1d7874; text-decoration: none; }
+  .section { page-break-before: always; padding-top: 2mm; }
+  .lead { color: #5a6473; font-size: 10.5pt; margin-bottom: 5mm; }
+
+  table { width: 100%; border-collapse: collapse; margin: 3mm 0 5mm 0; font-size: 9.4pt; }
+  th {
+    background: #0f3d3e; color: #fff; text-align: left; padding: 2.6mm 3mm;
+    font-size: 8.6pt; letter-spacing: 0.5px; text-transform: uppercase;
+  }
+  td { padding: 2.4mm 3mm; border-bottom: 1px solid #e3e8ee; vertical-align: top; }
+  tr:nth-child(even) td { background: #f5f8f8; }
+  .tot td { background: #ffd6a5 !important; font-weight: 800; color: #5c3d12; }
+
+  .day {
+    border: 1px solid #d9e2e4; border-left: 5px solid #2a9d8f;
+    border-radius: 3px; padding: 4mm 5mm; margin-bottom: 4mm;
+    page-break-inside: avoid;
+  }
+  .day .dh { display: flex; justify-content: space-between; align-items: baseline; }
+  .day .dn { font-size: 8.5pt; font-weight: 700; letter-spacing: 1.5px; color: #2a9d8f; text-transform: uppercase; }
+  .day .dd { font-size: 8.8pt; color: #8a94a6; }
+  .day h3 { margin: 1mm 0 2mm 0; font-size: 12.5pt; color: #0f3d3e; }
+  .day ul { margin: 1.5mm 0 0 0; padding-left: 5mm; }
+  .day li { margin-bottom: 1.3mm; }
+  .tag {
+    display: inline-block; background: #e7f3f1; color: #155e63;
+    font-size: 7.6pt; font-weight: 700; padding: 0.6mm 2mm; border-radius: 2mm;
+    margin-right: 1.5mm; letter-spacing: 0.4px;
+  }
+
+  .box {
+    background: #f0f6f5; border: 1px solid #cfe3df; border-radius: 3px;
+    padding: 4mm 5mm; margin: 4mm 0; page-break-inside: avoid;
+  }
+  .box.warn { background: #fff4e6; border-color: #f3d4a8; }
+  .box.ai { background: #f4f0fb; border-color: #d9cdf0; }
+  .box h3 { margin-top: 0; }
+  .box.ai h3 { color: #5b3a8e; }
+
+  .twocol { display: flex; gap: 6mm; }
+  .twocol > div { flex: 1; }
+  ul.clean { margin: 2mm 0; padding-left: 5mm; }
+  ul.clean li { margin-bottom: 1.6mm; }
+  .small { font-size: 8.6pt; color: #8a94a6; }
+  .pill-row { margin: 3mm 0; }
+</style>
+</head>
+<body>
+
+<!-- ============ COVER ============ -->
+<div class="cover">
+  <div class="brand">REBELZ AI<br><span style="font-size:8pt;color:#9ed6cd;">Reise-Dossier &amp; Recherche</span></div>
+  <div class="kicker">Familienreise &middot; Sommer 2026</div>
+  <h1>Azoren &amp;<br><span>Lissabon</span></h1>
+  <div class="sub">
+    São Miguel &mdash; der Kraterrand-Wanderweg Vista do Rei an der Caldeira
+    das Sete Cidades &mdash; gefolgt von Lissabon mit einem Abstecher an die
+    Algarve. Eine Reise für drei Generationen, mit Aktivitäten, Kosten,
+    Flugrecherche und Business-Einblicken für die KI-Agentur.
+  </div>
+  <div class="meta">
+    <div><div class="lbl">Reisezeitraum</div><div class="val">17.&ndash;26. Juni 2026</div></div>
+    <div><div class="lbl">Reisende</div><div class="val">3 Personen</div></div>
+    <div><div class="lbl">Dauer</div><div class="val">10 Tage / 9 Nächte</div></div>
+    <div><div class="lbl">Komfort</div><div class="val">Mittelklasse</div></div>
+    <div><div class="lbl">Recherchestand</div><div class="val">16. Mai 2026</div></div>
+  </div>
+</div>
+
+<!-- ============ ÜBERBLICK ============ -->
+<div class="section">
+  <h2>1 &middot; Überblick &amp; Reisegruppe</h2>
+  <p class="lead">Diese Reise verbindet Naturerlebnis, Entspannung und einen
+  Business-Auftrag: An beiden Zielen werden gezielt Einblicke für die
+  KI-Agentur <strong>Rebelz AI</strong> gesammelt (siehe Kapitel 7).</p>
+
+  <table>
+    <tr><th>Reisende:r</th><th>Hinweis für die Planung</th></tr>
+    <tr><td><strong>Du</strong> (Reiseleitung)</td><td>Fahrer:in, Organisation, Business-Termine</td></tr>
+    <tr><td><strong>Mutter, 71 Jahre</strong></td><td>Gemäßigtes Tempo, kurze Gehstrecken, keine steilen Treppen ohne Geländer, Sitzpausen einplanen</td></tr>
+    <tr><td><strong>Tochter, 4 Jahre</strong></td><td>Kindersitz im Mietwagen (vorbestellen), Mittagsschlaf-Fenster, kurze Aktivitätsblöcke</td></tr>
+  </table>
+
+  <h3>Routenlogik</h3>
+  <p>Direktflug Frankfurt &rarr; Ponta Delgada (mittwochs verfügbar), danach
+  6&nbsp;Nächte auf São Miguel. Anschließend Inlandsflug zur Hauptstadt und
+  3&nbsp;Nächte in Lissabon &mdash; davon ein Tagesausflug an die Algarve.
+  Rückflug Lissabon &rarr; Frankfurt als Direktverbindung.</p>
+
+  <table>
+    <tr><th>Abschnitt</th><th>Nächte</th><th>Datum</th><th>Basis / Unterkunftsregion</th></tr>
+    <tr><td>São Miguel (Azoren)</td><td>6</td><td>17.&ndash;23. Juni</td><td>Raum Ponta Delgada / Sete Cidades</td></tr>
+    <tr><td>Lissabon</td><td>3</td><td>23.&ndash;26. Juni</td><td>Zentrum (Baixa) oder Parque das Nações</td></tr>
+    <tr class="tot"><td>Gesamt</td><td>9 Nächte</td><td>10 Reisetage</td><td>&mdash;</td></tr>
+  </table>
+
+  <div class="box">
+    <h3>Warum dieser Rhythmus zur Gruppe passt</h3>
+    <ul class="clean">
+      <li><strong>Erst Natur, dann Stadt:</strong> die ruhigeren Azoren-Tage zu Beginn
+      gleichen den Jetlag-freien, aber langen Anreisetag aus.</li>
+      <li><strong>Ein „Standort“ pro Abschnitt:</strong> nur einmal aus- und einpacken
+      pro Insel/Stadt &mdash; entspannter für 71 und 4 Jahre.</li>
+      <li><strong>Vormittags aktiv, nachmittags ruhig:</strong> jeder Tag hat ein
+      Highlight am Morgen und einen Puffer am Nachmittag.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ============ FLÜGE ============ -->
+<div class="section">
+  <h2>2 &middot; Flugrecherche (Echtzeit-Stand 16. Mai 2026)</h2>
+  <p class="lead">Recherchiert über Skyscanner, KAYAK, Momondo, Lufthansa,
+  Azores Airlines und TAP. Preise sind tagesaktuell volatil &mdash; die Werte
+  unten sind belastbare Spannen für Juni 2026, keine Festpreise.</p>
+
+  <table>
+    <tr><th>Strecke</th><th>Datum</th><th>Airline / Typ</th><th>Flugzeit</th><th>Preis p.&nbsp;P.*</th></tr>
+    <tr><td>Frankfurt (FRA) &rarr; Ponta Delgada (PDL)</td><td>Mi 17.06.</td><td>Azores Airlines &mdash; Direktflug</td><td>~5 h 05</td><td>180&ndash;280 €</td></tr>
+    <tr><td>Ponta Delgada (PDL) &rarr; Lissabon (LIS)</td><td>Di 23.06.</td><td>Azores Airlines / TAP &mdash; Direktflug</td><td>~2 h 30</td><td>90&ndash;150 €</td></tr>
+    <tr><td>Lissabon (LIS) &rarr; Frankfurt (FRA)</td><td>Fr 26.06.</td><td>Lufthansa / TAP &mdash; Direktflug</td><td>~3 h 10</td><td>150&ndash;240 €</td></tr>
+    <tr class="tot"><td colspan="4">Richtwert pro Erwachsene:r (3 Segmente, inkl. 1 Aufgabegepäck)</td><td>520&ndash;680 €</td></tr>
+  </table>
+  <p class="small">* Kind (4 J.) benötigt einen eigenen Sitzplatz; Kindertarif liegt
+  meist bei ca. 75&ndash;90&nbsp;% des Erwachsenenpreises. Direktflug FRA&ndash;PDL
+  fliegt Azores Airlines saisonal v.&nbsp;a. mittwochs/sonntags &mdash; daher der
+  Mittwochs-Start.</p>
+
+  <div class="box warn">
+    <h3>Buchungsempfehlung</h3>
+    <ul class="clean">
+      <li><strong>Jetzt buchen:</strong> Juni ist Hochsaison. Statistisch ist das
+      Preisoptimum ca. 4&ndash;6&nbsp;Wochen vor Abflug bereits überschritten &mdash;
+      bei drei zusammenhängenden Sitzplätzen lieber früh sichern.</li>
+      <li><strong>Als Multi-City-Ticket buchen</strong> (FRA&rarr;PDL&rarr;LIS&rarr;FRA in
+      einer Buchung) &mdash; oft günstiger und mit Umsteige-Schutz; alternativ
+      drei Einzeltickets vergleichen.</li>
+      <li><strong>Alternative Abflughäfen:</strong> Stuttgart, Köln/Bonn oder
+      Düsseldorf via Lissabon umsteigen ist möglich, verlängert aber den
+      ohnehin langen Tag&nbsp;1. Für die Reisegruppe ist der <em>Direktflug ab
+      Frankfurt</em> klar zu bevorzugen.</li>
+      <li><strong>Sitzplatzreservierung</strong> für die Dreiergruppe vorab buchen
+      (Fensterplatz fürs Kind).</li>
+    </ul>
+  </div>
+
+  <h3>Anreisetag realistisch einplanen</h3>
+  <p>Frankfurt&ndash;Ponta Delgada dauert mit Anfahrt, Check-in und Flug leicht
+  8&ndash;10&nbsp;Stunden Tür-zu-Tür. Die Azoren liegen 1&nbsp;Stunde hinter
+  Festland-Portugal und 2&nbsp;Stunden hinter Deutschland &mdash; der Ankunftstag
+  bleibt daher bewusst frei von Programm.</p>
+</div>
+
+<!-- ============ AZOREN ITINERARY ============ -->
+<div class="section">
+  <h2>3 &middot; São Miguel &mdash; Tag für Tag (Tag 1&ndash;7)</h2>
+  <p class="lead">Sechs Nächte auf der „grünen Insel“. Kernstück ist Tag&nbsp;2:
+  der Kraterrand-Aussichtspunkt Vista do Rei und die Caldeira das Sete Cidades.</p>
+
+  <div class="day">
+    <div class="dh"><span class="dn">Tag 1 &middot; Anreise</span><span class="dd">Mi, 17. Juni</span></div>
+    <h3>Ankunft &amp; sanftes Ankommen in Ponta Delgada</h3>
+    <div class="pill-row">
+      <span class="tag">Direktflug</span><span class="tag">Mietwagen abholen</span><span class="tag">ruhig</span>
+    </div>
+    <ul>
+      <li>Direktflug FRA &rarr; PDL. Mietwagen am Flughafen übernehmen (Kindersitz vorbestellt).</li>
+      <li>Unterkunft beziehen, kurze Pause für Mutter und Tochter.</li>
+      <li>Leichter Spaziergang an der Marina von Ponta Delgada, Abendessen am Hafen
+      (frischer Fisch, kinderfreundliche Lokale).</li>
+      <li>Früh schlafen &mdash; der Reisetag war lang.</li>
+    </ul>
+  </div>
+
+  <div class="day">
+    <div class="dh"><span class="dn">Tag 2 &middot; Highlight</span><span class="dd">Do, 18. Juni</span></div>
+    <h3>Vista do Rei &amp; Caldeira das Sete Cidades</h3>
+    <div class="pill-row">
+      <span class="tag">Kraterrand</span><span class="tag">Aussicht</span><span class="tag">Wanderung light</span>
+    </div>
+    <ul>
+      <li><strong>Früh starten</strong> (Wolken/Nebel ziehen über den Kraterrand &mdash;
+      vormittags ist die Sicht am verlässlichsten).</li>
+      <li><strong>Miradouro Vista do Rei</strong> (ca. 550&nbsp;m Höhe): der spektakuläre
+      Panoramablick auf den grünen und den blauen See &mdash; bequem vom Parkplatz
+      in wenigen Minuten erreichbar. <em>Ideal auch für die Großmutter.</em></li>
+      <li><strong>Wanderoption (familienfreundlich):</strong> Der offizielle Wanderweg
+      PR3&nbsp;SMI ist ca. 12&nbsp;km / 4&nbsp;h und für die Gruppe zu lang. Empfohlen
+      wird das beliebte Teilstück <em>Vista do Rei &rarr; Dorf Sete Cidades</em>
+      (~5&nbsp;km, überwiegend bergab, ~2&nbsp;h). Tipp: Tochter im Tragerucksack;
+      ein:e Fahrer:in holt das Auto, oder Taxi/Transfer zurück organisieren.</li>
+      <li><strong>Sicherheitshinweis:</strong> Ein Streckenabschnitt verläuft auf
+      einer Straße ohne Gehweg. Mit Kind besser nur den Aussichtspunkt + ein
+      kurzes Kraterrand-Stück gehen und nicht die volle Straßenpassage.</li>
+      <li>Unten im Dorf Sete Cidades: Picknick/Café am Seeufer, optional Tretboot.</li>
+      <li>Rückfahrt, Nachmittag ruhig.</li>
+    </ul>
+  </div>
+
+  <div class="day">
+    <div class="dh"><span class="dn">Tag 3 &middot; Thermal</span><span class="dd">Fr, 19. Juni</span></div>
+    <h3>Furnas &mdash; Vulkanküche &amp; Thermalpark Terra Nostra</h3>
+    <div class="pill-row">
+      <span class="tag">heiße Quellen</span><span class="tag">entspannt</span><span class="tag">3 Generationen</span>
+    </div>
+    <ul>
+      <li>Fahrt nach Furnas (Ostteil der Insel). Unterwegs die <em>Caldeiras</em>:
+      blubbernde Schlammtöpfe und Dampffontänen &mdash; faszinierend für das Kind.</li>
+      <li><strong>Parque Terra Nostra:</strong> botanischer Garten mit großem, natürlich
+      eisenhaltigem Thermalbecken (~35&nbsp;°C). Badesachen mitnehmen; das warme
+      Wasser tut der Großmutter gut, das Kind plantscht im flacheren Bereich.</li>
+      <li>Mittags traditionelles <em>Cozido das Furnas</em> &mdash; ein Eintopf, der in
+      vulkanischer Erde gegart wird (vorab im Restaurant reservieren).</li>
+      <li>Optional: kurzer Halt am Furnas-See.</li>
+    </ul>
+  </div>
+
+  <div class="day">
+    <div class="dh"><span class="dn">Tag 4 &middot; Natur</span><span class="dd">Sa, 20. Juni</span></div>
+    <h3>Lagoa do Fogo, Caldeira Velha &amp; Teeplantage</h3>
+    <div class="pill-row">
+      <span class="tag">Aussicht</span><span class="tag">Dschungel-Pools</span><span class="tag">Tee</span>
+    </div>
+    <ul>
+      <li><strong>Miradouro Lagoa do Fogo:</strong> Aussichtspunkt auf den „Feuersee“
+      direkt von der Straße &mdash; <em>nicht</em> zum See hinabsteigen (steile Stufen/
+      Leiter, ungeeignet für 71 und 4 Jahre).</li>
+      <li><strong>Caldeira Velha:</strong> warme, flache Naturpools im Farn-Urwald;
+      Kinder 0&ndash;6&nbsp;J. gratis, Baden nur mit <strong>Vorabreservierung</strong>.
+      Die wärmeren Becken sind flach &mdash; ideal für das 4-jährige Kind.</li>
+      <li><strong>Gorreana-Teeplantage:</strong> Europas älteste Teeplantage, freier
+      Eintritt, kurze ebene Wege, Verkostung &mdash; ruhiger Stopp für die Großmutter.</li>
+    </ul>
+  </div>
+
+  <div class="day">
+    <div class="dh"><span class="dn">Tag 5 &middot; Ozean</span><span class="dd">So, 21. Juni</span></div>
+    <h3>Wale &amp; Delfine &mdash; oder ruhiger Küstentag</h3>
+    <div class="pill-row">
+      <span class="tag">Bootstour</span><span class="tag">Strand</span><span class="tag">flexibel</span>
+    </div>
+    <ul>
+      <li><strong>Vormittags Whale-Watching</strong> ab Ponta Delgada (ruhigere See am
+      Morgen). <em>Wichtig:</em> Mindestalter beim Anbieter prüfen &mdash; viele nehmen
+      Kinder erst ab 3&ndash;6&nbsp;Jahren und empfehlen größere, stabilere Boote
+      (Katamaran) statt Schlauchboot. Schwimmwesten für Kindergrößen anfragen.</li>
+      <li><strong>Alternative</strong>, falls Seegang/Alter nicht passen: gemütlicher
+      Tag in Mosteiros &mdash; schwarzer Sandstrand, natürliche Gezeitenpools und
+      ein flacher Bach, in dem kleine Kinder gut spielen.</li>
+      <li>Nachmittag bewusst frei: Erholung vor der Abreise.</li>
+    </ul>
+  </div>
+
+  <div class="day">
+    <div class="dh"><span class="dn">Tag 6 &middot; Stadt &amp; Business</span><span class="dd">Mo, 22. Juni</span></div>
+    <h3>Ponta Delgada entdecken &amp; Rebelz-AI-Recherche</h3>
+    <div class="pill-row">
+      <span class="tag">Altstadt</span><span class="tag">Wissenschaftspark</span><span class="tag">leicht</span>
+    </div>
+    <ul>
+      <li>Vormittags Altstadt von Ponta Delgada: Stadttore <em>Portas da Cidade</em>,
+      Markthalle, Ananasplantage Arruda (kurze, ebene Führung &mdash; spannend für
+      das Kind).</li>
+      <li><strong>Expo Lab</strong> (bei Lagoa): kleines Mitmach-Wissenschaftsmuseum &mdash;
+      perfekt, wenn das Kind seinen Bewegungsdrang ausleben soll.</li>
+      <li><strong>Business-Slot:</strong> NONAGON Science &amp; Technology Park /
+      Novovento Coworking besuchen &mdash; siehe Kapitel&nbsp;7. Großmutter und Kind
+      können parallel im Café/Park warten.</li>
+      <li>Leichtes Packen, früher Abend &mdash; morgen Weiterflug.</li>
+    </ul>
+  </div>
+
+  <div class="day">
+    <div class="dh"><span class="dn">Tag 7 &middot; Transfer</span><span class="dd">Di, 23. Juni</span></div>
+    <h3>Flug nach Lissabon</h3>
+    <div class="pill-row"><span class="tag">Inlandsflug</span><span class="tag">Ankunft Lissabon</span></div>
+    <ul>
+      <li>Mietwagen zurückgeben, Flug PDL &rarr; LIS (~2,5&nbsp;h).</li>
+      <li>In Lissabon: Transfer zur Unterkunft, ruhiger Einstieg &mdash; z.&nbsp;B.
+      Abendspaziergang am Tejo-Ufer oder im Parque das Nações (flach, modern,
+      viel Platz für das Kind).</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ============ LISSABON ITINERARY ============ -->
+<div class="section">
+  <h2>4 &middot; Lissabon &amp; Algarve &mdash; Tag für Tag (Tag 8&ndash;10)</h2>
+  <p class="lead">Drei Tage Hauptstadt mit einem Tagesausflug an die Algarve.
+  Lissabon ist hügelig &mdash; die Route nutzt bewusst Trams und flache Viertel.</p>
+
+  <div class="day">
+    <div class="dh"><span class="dn">Tag 8 &middot; Stadt</span><span class="dd">Mi, 24. Juni</span></div>
+    <h3>Oceanário &amp; Parque das Nações</h3>
+    <div class="pill-row">
+      <span class="tag">Aquarium</span><span class="tag">Seilbahn</span><span class="tag">flach &amp; kinderleicht</span>
+    </div>
+    <ul>
+      <li><strong>Oceanário de Lisboa</strong> (vormittags, 2&ndash;3&nbsp;h): eines der
+      besten Aquarien Europas, begeistert alle Altersgruppen. Tickets online
+      vorbuchen.</li>
+      <li><strong>Seilbahn (Telecabine)</strong> am Tejo entlang &mdash; kurze Fahrt,
+      große Wirkung, keine Lauferei.</li>
+      <li>Parque das Nações ist eben und modern &mdash; angenehme Pause von Lissabons
+      Hügeln. Mittagessen mit Blick aufs Wasser.</li>
+      <li>Nachmittag ruhig; optional Tram&nbsp;28 ein kurzes Stück als „Sightseeing
+      im Sitzen“.</li>
+    </ul>
+  </div>
+
+  <div class="day">
+    <div class="dh"><span class="dn">Tag 9 &middot; Ausflug</span><span class="dd">Do, 25. Juni</span></div>
+    <h3>Tagesausflug an die Algarve</h3>
+    <div class="pill-row">
+      <span class="tag">Küste</span><span class="tag">langer Fahrtag</span><span class="tag">früh starten</span>
+    </div>
+    <ul>
+      <li>Lissabon &ndash; Algarve sind ca. 250&nbsp;km / 2,5&ndash;3&nbsp;h pro Strecke
+      (Autobahn A2/A22). Ein Tagesausflug bedeutet realistisch <strong>5&ndash;6&nbsp;h
+      Fahrt</strong> insgesamt.</li>
+      <li><strong>Empfohlenes Ziel:</strong> Lagos &mdash; gut machbare Fahrt, charmante
+      Altstadt, der Strand <em>Praia Dona Ana</em> und die Felsküste
+      <em>Ponta da Piedade</em> (Aussicht von oben, keine Wanderung nötig).</li>
+      <li>Sehr früh starten, am späten Nachmittag zurückfahren &mdash; Snacks,
+      Pausen und Beschäftigung fürs Kind einplanen.</li>
+    </ul>
+    <div class="box warn" style="margin-top:3mm;">
+      <h3>Ehrlicher Hinweis &mdash; bitte abwägen</h3>
+      <p style="margin-bottom:2mm;">Mit 71 und 4 Jahren ist ein Algarve-Tagesausflug
+      <strong>anstrengend</strong>: viel Auto, wenig Zeit vor Ort. Drei Alternativen,
+      die dasselbe „Küsten-/Ausflugsgefühl“ mit weniger Stress liefern:</p>
+      <ul class="clean" style="margin-bottom:0;">
+        <li><strong>Sintra &amp; Cascais</strong> statt Algarve &mdash; Märchenschlösser
+        und Strand, nur ~40&nbsp;min ab Lissabon. Klar die familienfreundlichste Option.</li>
+        <li><strong>Algarve per Zug nach Faro</strong> (~3&nbsp;h) &mdash; entspannter als
+        selbst fahren, das Kind kann sich im Zug bewegen.</li>
+        <li><strong>Geführte Algarve-Tour</strong> &mdash; jemand anderes fährt, du kannst
+        dich ganz auf Mutter und Tochter konzentrieren.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="day">
+    <div class="dh"><span class="dn">Tag 10 &middot; Abreise</span><span class="dd">Fr, 26. Juni</span></div>
+    <h3>Belém am Vormittag &amp; Rückflug</h3>
+    <div class="pill-row"><span class="tag">Belém</span><span class="tag">Pastéis</span><span class="tag">Heimflug</span></div>
+    <ul>
+      <li>Vormittags Belém: das flache Tejo-Ufer am Mosteiro dos Jerónimos und
+      Belém-Turm &mdash; eindrucksvoll, ohne langes Museum.</li>
+      <li>Original <em>Pastéis de Belém</em> probieren.</li>
+      <li>Mietwagen (falls für die Algarve genommen) zurückgeben, Transfer zum
+      Flughafen, Direktflug LIS &rarr; FRA.</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h3>Lissabon mit 71 &amp; 4 Jahren &mdash; Tempo-Tipps</h3>
+    <ul class="clean">
+      <li>Lissabon ist <strong>steil</strong>: Trams (12, 28), Standseilbahnen und der
+      Aufzug Santa Justa nehmen die Hügel ab &mdash; bewusst einplanen.</li>
+      <li>Pro Tag <strong>ein</strong> Hauptziel, der Rest ist Bummeln und Pausen.</li>
+      <li>Alfama nur als kurze, abschüssige Nachmittagsschleife &mdash; nicht als
+      Tagesprogramm.</li>
+      <li>Unterkunft mit Aufzug wählen (viele Altbauten in der Baixa haben keinen).</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ============ KOSTEN ============ -->
+<div class="section">
+  <h2>5 &middot; Kostenübersicht</h2>
+  <p class="lead">Kalkulation für <strong>3 Personen</strong>, Komfortniveau
+  <strong>Mittelklasse</strong>, Juni 2026 (Hochsaison). Alle Beträge in Euro,
+  als Spanne &mdash; Reisepreise schwanken tagesaktuell.</p>
+
+  <table>
+    <tr><th>Position</th><th>Details</th><th>Spanne (Gruppe)</th></tr>
+    <tr><td>Flüge</td><td>FRA&ndash;PDL&ndash;LIS&ndash;FRA, 2 Erw. + 1 Kind, inkl. Gepäck &amp; Sitzplätze</td><td>1.500 &ndash; 1.950 €</td></tr>
+    <tr><td>Unterkunft Azoren</td><td>6 Nächte, Familienzimmer Mittelklasse (~130&ndash;160 €/Nacht)</td><td>780 &ndash; 960 €</td></tr>
+    <tr><td>Unterkunft Lissabon</td><td>3 Nächte, Familienzimmer zentral (~150&ndash;190 €/Nacht)</td><td>450 &ndash; 570 €</td></tr>
+    <tr><td>Mietwagen São Miguel</td><td>6 Tage, Kompakt-/Mittelklasse inkl. Versicherung &amp; Kindersitz</td><td>300 &ndash; 420 €</td></tr>
+    <tr><td>Mietwagen Algarve-Tag</td><td>1 Tag inkl. Sprit &amp; Maut (entfällt bei Zug/Tour)</td><td>90 &ndash; 140 €</td></tr>
+    <tr><td>Sprit Azoren</td><td>~6 Tage Inselfahrten</td><td>50 &ndash; 80 €</td></tr>
+    <tr><td>Aktivitäten &amp; Eintritte</td><td>Terra Nostra, Caldeira Velha, Whale-Watching, Oceanário, Belém u.&nbsp;a.</td><td>320 &ndash; 460 €</td></tr>
+    <tr><td>Verpflegung</td><td>10 Tage, Mix aus Restaurant &amp; Selbstversorgung (~70&ndash;90 €/Tag)</td><td>700 &ndash; 900 €</td></tr>
+    <tr><td>Transfers &amp; Sonstiges</td><td>Flughafentransfers, Trams, ÖPNV Lissabon, Puffer</td><td>150 &ndash; 220 €</td></tr>
+    <tr class="tot"><td colspan="2">Gesamtkosten Reise (3 Personen)</td><td>4.340 &ndash; 5.700 €</td></tr>
+  </table>
+
+  <div class="twocol">
+    <div class="box" style="margin-top:0;">
+      <h3>Sparpotenziale</h3>
+      <ul class="clean">
+        <li>Flüge als <strong>Multi-City</strong> früh buchen (4&ndash;8&nbsp;Wochen vorab).</li>
+        <li>Unterkunft mit <strong>Küche</strong> &mdash; ein Teil der Mahlzeiten selbst.</li>
+        <li>Sintra/Cascais statt Algarve spart Mietwagen-Tag &amp; Sprit.</li>
+        <li>Viele Azoren-Highlights (Sete Cidades, Aussichtspunkte, Gorreana) sind <strong>gratis</strong>.</li>
+      </ul>
+    </div>
+    <div class="box" style="margin-top:0;">
+      <h3>Geschäftlich absetzbar?</h3>
+      <p style="margin-bottom:0;">Der Reiseanteil mit klarem Bezug zu
+      <strong>Rebelz AI</strong> (Coworking-Tag, NONAGON-Besuch, Networking,
+      Recherche) kann ggf. anteilig als Betriebsausgabe geltend gemacht werden.
+      Belege sammeln und vorab mit der Steuerberatung klären.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============ REBELZ AI ============ -->
+<div class="section">
+  <h2>6 &middot; Business-Einblicke für Rebelz AI</h2>
+  <p class="lead">Beide Ziele sind nicht nur Urlaub, sondern Recherchefeld. So
+  lässt sich die Reise gezielt für die KI-Agentur nutzen.</p>
+
+  <div class="box ai">
+    <h3>Azoren / São Miguel &mdash; das unterschätzte Tech-Standbein</h3>
+    <p>São Miguel positioniert sich als ruhiger, gut vernetzter Standort für
+    Remote-Arbeit und digitale Innovation &mdash; interessant als kostengünstige
+    EU-Basis oder Retreat-/Workation-Location.</p>
+    <ul class="clean">
+      <li><strong>NONAGON &mdash; Science &amp; Technology Park:</strong> beherbergt den
+      <em>Azores Digital Innovation Hub</em>; Fokus auf Digitalisierung der
+      regionalen Wirtschaft, Datengovernance, IT-Beratung. Kontaktaufnahme vorab
+      per E-Mail, Besuchstermin an Tag&nbsp;6 anfragen.</li>
+      <li><strong>Novovento Coworking:</strong> einen halben Tag dort arbeiten &mdash;
+      direkter Draht zur lokalen Remote-Worker- und Digital-Nomad-Community.</li>
+      <li><strong>Nischen-Idee für Rebelz AI:</strong> KI-Lösungen für nachhaltigen
+      Tourismus und Naturschutz (Besucherlenkung Sete Cidades/Lagoa do Fogo,
+      Wettervorhersage-gestützte Tourenplanung) &mdash; ein Markt, der hier sichtbar
+      konkret ist.</li>
+    </ul>
+  </div>
+
+  <div class="box ai">
+    <h3>Lissabon &mdash; einer der dynamischsten Tech-Hubs Europas</h3>
+    <p>Lissabon ist ein erstklassiges Recherchefeld: 16&nbsp;Unicorns mit Sitz in
+    der Stadt (u.&nbsp;a. OutSystems, Talkdesk), ein dichtes Startup-Ökosystem und
+    starke AI-Talentbasis.</p>
+    <ul class="clean">
+      <li><strong>Unicorn Factory Lisboa &amp; Startup Portugal:</strong> zentrale
+      Anlaufstellen des Ökosystems &mdash; ideal, um Partner, Talente und
+      Förderprogramme zu sondieren.</li>
+      <li><strong>Beato Creative Hub (Hub Criativo do Beato):</strong> großer
+      Innovations-Campus &mdash; lohnt einen Abstecher für den Eindruck der Szene.</li>
+      <li><strong>Web Summit:</strong> findet 9.&ndash;12.&nbsp;November 2026 in Lissabon
+      statt &mdash; KI ist Top-Thema. Diese Reise eignet sich, um eine spätere
+      Web-Summit-Teilnahme oder einen Rebelz-AI-Stand vorzubereiten.</li>
+      <li><strong>Praktisch:</strong> ein Vormittag in einem Coworking-Space
+      (z.&nbsp;B. Second Home, Heden) &mdash; Gespräche, Visitenkarten, ein Gefühl für
+      Preise &amp; Talentmarkt als möglicher Nearshore-Standort.</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h3>Konkrete To-dos für die Agentur</h3>
+    <ul class="clean">
+      <li>Vorab je 3&ndash;5 Kontakte/Orgs pro Ziel anschreiben und Treffen terminieren.</li>
+      <li>Kurzes Reise-Memo erstellen: Standortkosten, Talentverfügbarkeit, mögliche Partner.</li>
+      <li>Foto-/Videomaterial der Reise als Content für Rebelz-AI-Kanäle nutzen
+      (Storytelling: „KI-Agentur on the road“).</li>
+      <li>Belege für den geschäftlichen Reiseanteil sauber sammeln.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ============ PRAKTISCH ============ -->
+<div class="section">
+  <h2>7 &middot; Praktische Hinweise &amp; Packliste</h2>
+
+  <div class="twocol">
+    <div>
+      <h3>Für die Großmutter (71)</h3>
+      <ul class="clean">
+        <li>Bequeme, rutschfeste Schuhe &mdash; Azoren-Wege sind oft feucht.</li>
+        <li>Reiseapotheke &amp; Medikamente im Handgepäck, ausreichend Vorrat.</li>
+        <li>Auslands-Krankenversicherung + EU-Versichertenkarte (EHIC) prüfen.</li>
+        <li>Touren ohne steile Treppen wählen (siehe Tageshinweise).</li>
+      </ul>
+      <h3>Für die Tochter (4)</h3>
+      <ul class="clean">
+        <li>Kindersitz im Mietwagen <strong>vorbestellen</strong> (beide Stationen).</li>
+        <li>Trage-/Kraxe für Wege wie Vista do Rei.</li>
+        <li>Schwimmflügel/­hilfen für Thermalbecken.</li>
+        <li>Snacks, Wechselkleidung, Sonnenschutz, Beschäftigung für Flüge/Fahrten.</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Wetter &amp; Ausrüstung</h3>
+      <ul class="clean">
+        <li>Azoren im Juni: mild, wechselhaft &mdash; <strong>Zwiebelprinzip</strong>,
+        Regenjacke, auch an warme Sachen denken.</li>
+        <li>Badesachen für Thermalbäder (Caldeira Velha, Terra Nostra) &mdash;
+        eisenhaltiges Wasser kann helle Stoffe verfärben: dunkle Badekleidung.</li>
+        <li>Lissabon/Algarve im Juni: warm bis heiß &mdash; Sonnenhut, Sonnencreme,
+        Trinkflaschen.</li>
+      </ul>
+      <h3>Organisation</h3>
+      <ul class="clean">
+        <li>Caldeira Velha, Oceanário, Whale-Watching, Cozido-Restaurant
+        <strong>vorab online buchen</strong>.</li>
+        <li>Reisepässe/Perso gültig; für das Kind eigenes Ausweisdokument.</li>
+        <li>Offline-Karten herunterladen (Azoren-Funklöcher).</li>
+        <li>Frühe Tagesstarts gegen Nachmittagswolken am Kraterrand.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="box warn">
+    <h3>Wichtigster Tipp für Tag 2 (Vista do Rei)</h3>
+    <p style="margin-bottom:0;">Der Kraterrand verschwindet im Tagesverlauf oft
+    in Wolken. <strong>So früh wie möglich</strong> zum Aussichtspunkt fahren &mdash;
+    und einen Reservetag (z.&nbsp;B. Tag&nbsp;4 oder 5) einplanen, falls die Sicht
+    am 18.&nbsp;Juni schlecht ist. Das Highlight der Reise sollte nicht vom Wetter
+    eines einzigen Vormittags abhängen.</p>
+  </div>
+
+  <p class="small" style="margin-top:6mm;">
+    <strong>Quellen (Recherche 16. Mai 2026):</strong> Skyscanner, KAYAK, Momondo,
+    Lufthansa, Azores Airlines, TAP Air Portugal &middot; AllTrails &amp;
+    trails.visitazores.com (PR3 SMI Vista do Rei) &middot; VisitAzores &middot;
+    Tripadvisor &amp; Familienreise-Blogs (São Miguel, Lissabon mit Kindern)
+    &middot; Rome2rio, algarve-tourist.com (Lissabon&ndash;Algarve) &middot;
+    Web Summit, Startup Portugal, TechCrunch &middot; NONAGON Science &amp;
+    Technology Park, Azores Digital Innovation Hub. &mdash; Alle Preise sind
+    Richtwerte und tagesaktuell zu prüfen.
+  </p>
+</div>
+
+</body>
+</html>
