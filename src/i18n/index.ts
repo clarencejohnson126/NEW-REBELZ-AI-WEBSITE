@@ -13,12 +13,14 @@ i18n
       en: { translation: en },
       de: { translation: de },
     },
-    fallbackLng: 'en',
+    fallbackLng: 'de',
     interpolation: {
       escapeValue: false,
     },
     detection: {
-      order: ['localStorage', 'navigator'],
+      // Nur gespeicherte Nutzerwahl berücksichtigen; sonst Deutsch (fallbackLng).
+      // 'navigator' bewusst entfernt, damit www.rebelzai.com standardmäßig auf Deutsch lädt.
+      order: ['localStorage'],
       caches: ['localStorage'],
     },
   })
