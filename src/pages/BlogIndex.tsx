@@ -7,8 +7,8 @@ export default function BlogIndex() {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Blog | Rebelz AI – KI-Implementierung für Bau & KMU"
-        description="Praxiswissen zu KI-Agenten, WhatsApp-Automatisierung und Dokumentenmanagement für Bauunternehmen und kleine Unternehmen in der DACH-Region."
+        title="Blog | Rebelz AI – KI-Implementierung für Bau & Immobilien"
+        description="Praxiswissen zu KI-Agenten, WhatsApp-Automatisierung und Dokumentenmanagement für Bau- und Immobilienbetriebe in der DACH-Region."
         canonical="https://rebelzai.com/blog"
       />
       <div className="container-main py-12 md:py-20">
@@ -23,7 +23,7 @@ export default function BlogIndex() {
         <h1 className="text-h1 text-white mb-4">Blog</h1>
         <p className="text-body text-muted mb-12 max-w-2xl">
           Praxiswissen zu KI-Implementierung, Automatisierung und digitaler Transformation
-          für Bauunternehmen und kleine Unternehmen in der DACH-Region.
+          für Bau- und Immobilienbetriebe in der DACH-Region.
         </p>
 
         <div className="grid gap-8">

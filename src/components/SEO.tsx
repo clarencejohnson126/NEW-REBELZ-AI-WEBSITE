@@ -60,9 +60,9 @@ export default function SEO({ title, description, canonical, noindex = false }: 
 
     // Cleanup function to restore defaults when component unmounts
     return () => {
-      document.title = 'Rebelz AI | KI-Implementierung für kleine Unternehmen'
+      document.title = 'Rebelz AI | KI-Implementierung für Bau & Immobilien'
       if (metaDescription) {
-        metaDescription.setAttribute('content', 'Rebelz AI - KI-Implementierung für kleine Unternehmen in Deutschland. WhatsApp Automatisierung, Sprach-Agenten, KI-Systeme. Eine Person. Echte Systeme. Messbare Ergebnisse.')
+        metaDescription.setAttribute('content', 'Rebelz AI - KI-Implementierung für Bau und Immobilien in Deutschland. Baustellen-Dokumentenmanagement, NachtragsAgent, WhatsApp Automatisierung, KI-Systeme. Eine Person. Echte Systeme. Messbare Ergebnisse.')
       }
     }
   }, [title, description, canonical, noindex])

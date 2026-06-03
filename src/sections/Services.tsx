@@ -1,22 +1,20 @@
 import { useState, useEffect } from 'react'
-import { MessageSquare, Phone, Cpu, Smartphone, Globe, Wrench, FolderOpen, Handshake } from 'lucide-react'
+import { MessageSquare, Cpu, Wrench, FolderOpen, Handshake } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import { useLocation } from 'react-router-dom'
 import ServiceModal from '../components/ServiceModal'
 import SectionHeader from '../components/SectionHeader'
 
 const serviceIcons = {
-  whatsapp: MessageSquare,
-  voice: Phone,
   'ai-systems': Cpu,
-  mobile: Smartphone,
-  web: Globe,
-  tools: Wrench,
   'construction-files': FolderOpen,
+  whatsapp: MessageSquare,
+  tools: Wrench,
   partner: Handshake,
 }
 
-const serviceIds = ['whatsapp', 'voice', 'ai-systems', 'mobile', 'web', 'tools', 'construction-files', 'partner'] as const
+// Fokussiert auf Bau / Nachunternehmer: NachtragsAgent + Doku-Management zuerst.
+const serviceIds = ['ai-systems', 'construction-files', 'whatsapp', 'tools', 'partner'] as const
 
 export default function Services() {
   const { t } = useTranslation()

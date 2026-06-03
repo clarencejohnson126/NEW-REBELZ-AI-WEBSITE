@@ -9,7 +9,7 @@
   "philosophy": {
     "title": "The Philosophy",
     "headline": "Technology should be silent leverage.",
-    "description": "Most small businesses are drowning in \"admin work\" that prevents them from doing \"real work.\" We don't implement AI to replace people; we implement it to replace drudgery.",
+    "description": "Most construction and real estate businesses drown in \"admin work\" that keeps them from the \"real work.\" We don't implement AI to replace people; we implement it to replace drudgery.",
     "principles": [
       "No 'Black Box' solutions. You own the systems.",
       "Focus on ROI and operational speed.",
@@ -21,108 +21,113 @@
     "slides": [
       {
         "headline": "AI that works quietly in the background.",
-        "subtext": "I help small businesses automate operations without disrupting daily work."
+        "subtext": "I help construction and real estate businesses automate their operations—without disrupting daily work."
       },
       {
         "headline": "Built for Non-IT Teams.",
-        "subtext": "You focus on your business. I design, implement, and maintain the AI systems."
+        "subtext": "You focus on the jobsite and your properties. I design, implement, and maintain the AI systems."
       },
       {
         "headline": "One partner. Real systems. Measurable impact.",
-        "subtext": "Personal, hands-on AI implementation for small and growing companies."
+        "subtext": "Personal, hands-on AI implementation for construction and real estate businesses."
       }
     ],
     "cta": "Start a conversation",
     "scroll": "Scroll"
   },
   "services": {
-    "sectionTitle": "Capabilities & Infrastructure",
+    "sectionTitle": "What we automate for construction & real estate businesses",
     "label": "What I Do",
     "title": "Systems that give you time back",
-    "description": "Every service exists to solve one problem: freeing you from repetitive work so you can focus on what actually grows your business.",
+    "description": "Every service solves a concrete problem from the daily reality of construction and real estate businesses: freeing you from repetitive work so you can focus on what actually grows your business.",
     "explore": "Explore",
     "notSure": "Not sure where to start?",
     "discoverRandom": "Click to discover a random service",
     "items": {
       "whatsapp": {
         "title": "WhatsApp Automations",
-        "summary": "Customer communication that runs itself. Booking, reminders, follow-ups—without the overhead.",
-        "description": "Your customers already use WhatsApp. Meet them there—without adding to your workload.",
-        "whoFor": "Service businesses, clinics, salons, consultants—anyone who spends hours answering the same questions.",
-        "problem": "You lose time to repetitive messages. Booking confirmations, reminders, follow-ups. It adds up fast.",
-        "solution": "Automated conversations that handle the routine. Customers get instant responses. You get your mornings back.",
-        "whyCare": "Zero app install for your clients. No learning curve. Just faster communication with less manual effort.",
-        "features": ["Automated booking confirmations", "Appointment reminders", "Follow-up sequences", "Internal team notifications", "FAQ handling"]
-      },
-      "voice": {
-        "title": "Voice Agents",
-        "summary": "Phone-based AI that handles appointments and first-line support. Always available.",
-        "description": "A phone line that never sleeps. Handles calls when you cannot.",
-        "whoFor": "Small offices, medical practices, service providers who miss calls during busy hours.",
-        "problem": "Every missed call is a missed opportunity. But you cannot answer phones and do your actual work.",
-        "solution": "AI voice agents that answer, qualify, and schedule—24/7. Callers get help. You get qualified leads.",
-        "whyCare": "First-line customer support without hiring. Appointments booked while you focus on the work that pays.",
-        "features": ["Appointment scheduling", "Call qualification", "After-hours coverage", "FAQ responses", "Call summaries delivered to you"]
+        "summary": "Communication with clients, subcontractors, and your crew—coordinated automatically. Requests, appointment confirmations, status updates, without the overhead.",
+        "description": "Your clients, foremen, and subcontractors are already on WhatsApp. Coordinate scheduling, queries, and status right there—without adding to your workload.",
+        "whoFor": "Construction companies, subcontractors, real estate agents, and property managers who coordinate requests, scheduling, and status updates over WhatsApp—instead of losing hours to back-and-forth.",
+        "problem": "Constant back-and-forth over WhatsApp: When does the material arrive? Is the appointment set? Who is on site tomorrow? The same questions, every day, from every direction.",
+        "solution": "Automated flows handle the routine communication: appointment confirmations, reminders, status updates to clients and crew. Instant responses, less time on the phone.",
+        "whyCare": "No app install, no learning curve—everyone already uses WhatsApp. Just faster coordination on the jobsite with less manual effort.",
+        "features": [
+          "Automated appointment confirmations",
+          "Reminders for appointments & inspections",
+          "Status updates to clients",
+          "Internal team notifications",
+          "Handling recurring requests"
+        ]
       },
       "ai-systems": {
         "title": "AI Agent Systems & Infrastructure",
         "summary": "Internal AI agents that automate processes, review construction claims, and handle knowledge work for small teams.",
         "description": "Internal AI that handles the work between the work—from claims management to process automation.",
-        "whoFor": "Small teams drowning in admin. Construction companies that need to catch change orders faster. Businesses with processes that should not require constant attention.",
+        "whoFor": "Small teams drowning in admin. Construction companies that need to catch change orders faster. Property managers who want to automate processes and knowledge work without it demanding constant attention.",
         "problem": "Manual data entry. Copy-pasting between tools. Change orders caught too late or poorly documented. The invisible work that eats your day and costs real money.",
         "solution": "Custom AI agents that move information, update systems, detect change orders early, and handle routine decisions automatically. Our NachtragsAgent analyzes contract changes and flags claim potential before it is lost.",
         "whyCare": "Lightweight systems tailored to small teams. Not enterprise software. For claims management: early warning instead of damage control. Just the automation you actually need.",
-        "features": ["Claims management", "Process automation", "Data synchronization", "Document handling", "Internal notifications", "Knowledge management"]
-      },
-      "mobile": {
-        "title": "Mobile App Development",
-        "summary": "Custom apps for internal tools or client-facing utilities. Built only when it makes sense.",
-        "description": "Custom apps when—and only when—they make sense.",
-        "whoFor": "Businesses with specific needs that off-the-shelf software cannot solve.",
-        "problem": "Generic apps do not fit your workflow. But custom development feels expensive and risky.",
-        "solution": "Focused mobile apps built for your specific use case. Internal tools or client-facing utilities.",
-        "whyCare": "I only recommend this when it is the right solution. Most problems do not need an app.",
-        "features": ["Internal team tools", "Client-facing utilities", "Field service apps", "Custom booking systems", "Integrated with your existing stack"]
-      },
-      "web": {
-        "title": "Website Design & Implementation",
-        "summary": "Clean, conversion-focused websites. Integrated with automations. No bloat.",
-        "description": "Websites that work. Not marketing pages that look pretty and convert nothing.",
-        "whoFor": "Businesses that need a web presence that actually generates leads or serves customers.",
-        "problem": "Your website looks dated. Or it looks fine but does nothing. Visitors leave without taking action.",
-        "solution": "Clean, conversion-focused websites integrated with your automations. Form fills become booked calls.",
-        "whyCare": "No bloated marketing pages. No unnecessary features. Just a site that does its job.",
-        "features": ["Conversion-focused design", "Mobile-first approach", "Integrated with automations", "Fast loading times", "Easy for you to update"]
+        "features": [
+          "Claims management",
+          "Process automation",
+          "Data synchronization",
+          "Document handling",
+          "Internal notifications",
+          "Knowledge management"
+        ]
       },
       "tools": {
         "title": "Smart AI Tools Implementation",
         "summary": "Selecting the right tools, connecting them, training your team. Avoiding tool overload.",
         "description": "The right tools, connected properly, with your team trained to use them.",
-        "whoFor": "Businesses overwhelmed by AI tool options. Teams that tried tools but could not make them stick.",
+        "whoFor": "Construction and real estate businesses overwhelmed by AI tool options, or who tried tools without making them stick in daily work.",
         "problem": "Tool overload. You signed up for five AI tools and use none of them effectively.",
         "solution": "I select what you actually need, connect it to your workflow, and train your team until it becomes habit.",
         "whyCare": "Avoid the graveyard of unused subscriptions. Get tools that actually get used.",
-        "features": ["Tool selection and vetting", "Integration setup", "Team training", "Workflow optimization", "Ongoing support"]
+        "features": [
+          "Tool selection and vetting",
+          "Integration setup",
+          "Team training",
+          "Workflow optimization",
+          "Ongoing support"
+        ]
       },
       "construction-files": {
         "title": "Construction Document Management",
         "summary": "Desktop chaos becomes project structure. Photos, plans, protocols—automatically sorted by trade, project, and date.",
         "description": "Your digital jobsite chaos becomes a structured project archive automatically. Desktop cleanup, file organization, photo sorting—all in one.",
-        "whoFor": "Site managers, project managers, subcontractors—anyone whose desktop is overflowing with files and who spends evenings organizing instead of relaxing.",
+        "whoFor": "Site managers, project managers, subcontractors—and property managers with overflowing property files: anyone whose desktop is overflowing with photos, plans, and protocols and who spends evenings organizing instead of relaxing.",
         "problem": "Your desktop is a battlefield. 500 photos from last month, plans in three different versions, protocols somewhere between Downloads and WhatsApp images. You know you need to sort this—but when? Every inspection becomes a scavenger hunt. Every change order becomes a search for proof. And the daily report? Waiting until you finally find the right files.",
         "solution": "Give us access to your folders—we handle the rest. The system automatically sorts: photos by trade and defect type, documents by project and version, everything by date and construction phase. You get a clean folder structure ready for reports, inspections, and change orders. 10,000 files on your desktop? No problem.",
         "whyCare": "Never sacrifice your evening to sorting again. Never fail to find the proof photo at an inspection. Never argue over missing documentation. Your entire project archive—structured, searchable, at your fingertips.",
-        "features": ["Automatic photo sorting by trade (Electrical, Plumbing, Framing, HVAC, Civil...)", "Document organization by project, version, and type", "Desktop cleanup and folder structure creation", "Detection of defects, progress shots, and inspection photos", "Sorting by construction phase, area, and floor", "Export-ready structure for daily reports and inspections", "Batch processing for thousands of files at once", "Search function across all projects and file types", "Custom categories based on your requirements"]
+        "features": [
+          "Automatic photo sorting by trade (Electrical, Plumbing, Framing, HVAC, Civil...)",
+          "Document organization by project, version, and type",
+          "Desktop cleanup and folder structure creation",
+          "Detection of defects, progress shots, and inspection photos",
+          "Sorting by construction phase, area, and floor",
+          "Export-ready structure for daily reports and inspections",
+          "Batch processing for thousands of files at once",
+          "Search function across all projects and file types",
+          "Custom categories based on your requirements"
+        ]
       },
       "partner": {
         "title": "AI Transformation Partner",
         "summary": "Long-term collaboration. Strategic guidance. Gradual adoption without forced disruption.",
         "description": "Long-term collaboration for businesses ready to evolve—at their own pace.",
-        "whoFor": "Business owners who want AI adoption but need a guide, not a vendor.",
+        "whoFor": "Owners of construction and real estate businesses who want AI adoption but need a guide, not a vendor.",
         "problem": "You know AI matters. But you do not have time to research, experiment, and implement while running your business.",
         "solution": "I become your AI partner. We identify opportunities together. I implement. You approve. We iterate.",
         "whyCare": "No forced disruption. No massive upfront investment. Just gradual, strategic adoption that fits your reality.",
-        "features": ["Strategic planning", "Gradual implementation", "Regular check-ins", "Opportunity identification", "Long-term relationship"]
+        "features": [
+          "Strategic planning",
+          "Gradual implementation",
+          "Regular check-ins",
+          "Opportunity identification",
+          "Long-term relationship"
+        ]
       }
     }
   },
@@ -137,7 +142,7 @@
   "clientele": {
     "sectionTitle": "Who This Is For",
     "label": "Who This Is For",
-    "title": "Small businesses. Owner-operated companies. Teams without a tech department.",
+    "title": "Construction companies, subcontractors, site managers—and property managers. Owner-led, no IT department.",
     "quote": "They do not lack ambition. They lack time to experiment with new technology while running daily operations.",
     "quoteFollowup": "That is why I exist. To be the person who handles the AI side—so you can focus on the business side.",
     "whatAiMeans": "What AI means for you",
@@ -164,9 +169,18 @@
       }
     ],
     "stats": [
-      { "value": "Support", "sub": "Not replacement" },
-      { "value": "Infrastructure", "sub": "Not complexity" },
-      { "value": "Leverage", "sub": "Not disruption" }
+      {
+        "value": "Support",
+        "sub": "Not replacement"
+      },
+      {
+        "value": "Infrastructure",
+        "sub": "Not complexity"
+      },
+      {
+        "value": "Leverage",
+        "sub": "Not disruption"
+      }
     ]
   },
   "about": {
@@ -177,13 +191,25 @@
     "introFollow": "I'm the founder and the mind behind Rebelz AI.",
     "p1": "At Rebelz AI, clients work directly with me. That means faster decisions, clearer communication, and solutions that actually fit your business—not a template sold to a hundred others.",
     "p2": "From strategy to execution—everything runs through one desk. And when something breaks, I'm the one who takes care of it.",
-    "p3": "If you're looking for an enterprise vendor, this isn't the right fit. But for small businesses and owner-operated companies, this is often the decisive advantage: someone who understands your entire operation and makes AI adoption actually work.",
+    "p3": "If you want a corporate vendor, this is the wrong place. But for owner-led construction and real estate businesses, that is often the deciding advantage: someone who understands your entire operation and actually makes AI adoption work.",
     "workingWith": "What working with me looks like",
     "traits": [
-      { "title": "Direct access", "desc": "No account managers. No ticket systems." },
-      { "title": "Accountability", "desc": "One person responsible for results." },
-      { "title": "Long-term thinking", "desc": "Solutions built to last, not to upsell." },
-      { "title": "Honest advice", "desc": "I will tell you if AI is not the answer." }
+      {
+        "title": "Direct access",
+        "desc": "No account managers. No ticket systems."
+      },
+      {
+        "title": "Accountability",
+        "desc": "One person responsible for results."
+      },
+      {
+        "title": "Long-term thinking",
+        "desc": "Solutions built to last, not to upsell."
+      },
+      {
+        "title": "Honest advice",
+        "desc": "I will tell you if AI is not the answer."
+      }
     ],
     "hiddenFacts": [
       "I answer my own emails.",
@@ -192,46 +218,6 @@
       "Every solution is custom."
     ],
     "discover": "+ Discover"
-  },
-  "testimonials": {
-    "sectionTitle": "Results",
-    "label": "Results",
-    "title": "What clients actually say",
-    "description": "No hype. Just practical outcomes from real businesses.",
-    "clickToFlip": "(Click cards to reveal metrics)",
-    "flipHint": "Click to flip →",
-    "keyMetric": "Key Metric",
-    "flipBack": "Click to flip back",
-    "note": "Names abbreviated for privacy. Industries and outcomes are real.",
-    "items": [
-      {
-        "industry": "Construction",
-        "company": "Small construction company",
-        "quote": "We used to catch addendums too late—after work was already done wrong. Now the system flags changes the moment they come in. Document handling alone probably saves us two headaches a week.",
-        "focus": "Early detection of contract changes, better document handling, reduced surprises on site.",
-        "name": "M. Weber",
-        "role": "Owner",
-        "hidden": "Time saved: ~8 hours/week"
-      },
-      {
-        "industry": "Healthcare",
-        "company": "Doctor's office",
-        "quote": "No-shows were killing our schedule. Automated reminders cut them in half. The front desk actually has time to help patients now instead of making confirmation calls all day.",
-        "focus": "Automated appointment reminders, reduced no-shows, less administrative overhead.",
-        "name": "Dr. K. Hoffmann",
-        "role": "Practice Owner",
-        "hidden": "No-show rate: 50% reduction"
-      },
-      {
-        "industry": "Personal Services",
-        "company": "Hair studio",
-        "quote": "Our clients actually use the app. Booking, checking their history, even rebooking their favorite stylist. It feels like we are a bigger operation than we are.",
-        "focus": "Custom client app, improved booking flow, better client engagement.",
-        "name": "S. Martinez",
-        "role": "Studio Owner",
-        "hidden": "Rebooking rate: +35%"
-      }
-    ]
   },
   "contact": {
     "sectionTitle": "Get In Touch",
@@ -257,7 +243,7 @@
     }
   },
   "footer": {
-    "tagline": "AI implementation for small businesses. One person. Real systems. No unnecessary complexity.",
+    "tagline": "AI implementation for construction & real estate. One person. Real systems. No unnecessary complexity.",
     "navigation": "Navigation",
     "getInTouch": "Get in touch",
     "quote": "If you don't solve today's problems, you won't earn the blessings of tomorrow's problems.",
@@ -271,27 +257,27 @@
     "sectionTitle": "Frequently Asked Questions",
     "label": "FAQ",
     "title": "Frequently Asked Questions",
-    "description": "Answers to key questions about AI implementation for construction companies and small businesses.",
+    "description": "Answers to the most important questions about AI implementation for construction and real estate businesses.",
     "items": [
       {
         "question": "What does Rebelz AI specialize in?",
-        "answer": "Rebelz AI is an AI implementation agency based in Mannheim, Germany, specializing in construction companies and small businesses across the DACH region (Germany, Austria, Switzerland). The 8 core services include construction document management, WhatsApp automation, voice agents, AI agent systems, mobile app development, web design, AI tools implementation, and long-term AI transformation partnership. The key differentiator: Rebelz AI combines real construction industry experience with AI expertise."
+        "answer": "Rebelz AI is an AI implementation agency based in Mannheim, with a clear focus on the construction industry—extended to real estate—across the DACH region (Germany, Austria, Switzerland). The five core services are: AI agent systems & infrastructure (including the NachtragsAgent), jobsite and property document management, WhatsApp automation, smart AI tools implementation, and long-term AI transformation partnership. What sets it apart: real construction experience combined with AI expertise."
       },
       {
-        "question": "How does AI help construction companies?",
-        "answer": "AI can support construction companies in multiple areas: automatic sorting of jobsite photos by trade, defect type, and construction phase; document management with automatic organization by project and version; early detection of contract changes in addendums; automated scheduling and client communication. Rebelz AI achieved time savings of approximately 8 hours per week at one construction company through improved document processing alone."
+        "question": "How does AI help construction and real estate businesses?",
+        "answer": "AI can help in several areas: automatic sorting of jobsite and property photos by trade, defect type, and construction phase; document management organized automatically by project, property, and version; early detection of contract changes for change orders; automated appointment and client communication over WhatsApp. The result: more time for the actual work on site instead of admin."
       },
       {
         "question": "What makes Rebelz AI different from other AI agencies?",
-        "answer": "Three key differences: 1) Rebelz AI is a one-person agency — clients work directly with founder Clarence, with no account managers or ticket systems. 2) Real construction experience: Rebelz AI knows the building industry firsthand and understands the specific challenges of site managers and project leaders. 3) Hands-on implementation rather than theoretical consulting — no black-box solutions, clients own their systems."
+        "answer": "Three key differences: 1) Rebelz AI is a one-person agency—clients work directly with founder Clarence, with no account managers or ticket systems. 2) Real construction experience: Rebelz AI knows the industry firsthand and understands the specific challenges of site managers, project managers, and property managers. 3) Hands-on implementation instead of theoretical consulting—no black-box solutions, clients own their own systems."
       },
       {
         "question": "How long does AI implementation take?",
-        "answer": "Implementation timelines vary by service: WhatsApp automation and voice agents can be set up within a few weeks. Construction document management is often productive within 2-4 weeks. More comprehensive AI agent systems typically require 4-8 weeks. Rebelz AI follows a gradual adoption approach — no forced disruption, but strategic implementation at the company's own pace."
+        "answer": "Implementation time varies by service: WhatsApp automation can be set up within a few weeks. Jobsite and property document management is often productive within 2-4 weeks. More comprehensive AI agent systems typically take 4-8 weeks. Rebelz AI favors gradual rollout—no forced disruption, just strategic implementation at the pace of your business."
       },
       {
-        "question": "Does Rebelz AI work with companies outside the construction industry?",
-        "answer": "Yes. While construction is a core focus, Rebelz AI also works with service providers, medical practices, salons, consultants, and other small businesses in the DACH region. Proven results outside construction: 50% reduction in no-show rates at a medical practice and +35% rebooking rate at a hair studio. The common thread: small teams without IT departments who want AI adoption without disruption."
+        "question": "Does Rebelz AI only work with construction companies?",
+        "answer": "The main focus is the construction industry—construction companies, subcontractors, and trade businesses. In addition, Rebelz AI also works with real estate businesses such as property managers, building administrators, real estate agents, and developers, whose workflows complement those on the construction side well. The common thread: small, owner-led teams without their own IT department, looking for AI adoption without disruption."
       }
     ]
   },
