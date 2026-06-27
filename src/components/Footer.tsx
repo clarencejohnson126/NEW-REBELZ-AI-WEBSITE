@@ -173,7 +173,7 @@ export default function Footer() {
                 />
               </a>
               <a
-                href="https://www.neatlify.app"
+                href="https://apps.apple.com/us/app/neatlify/id6758630465?mt=12"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted hover:text-white transition-colors hover:opacity-80"
